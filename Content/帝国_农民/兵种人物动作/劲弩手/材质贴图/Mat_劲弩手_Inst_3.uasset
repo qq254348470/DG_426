@@ -1,0 +1,803 @@
+[Internationalization]
+LocalizationPaths=../../../Engine/Content/Localization/Editor
+LocalizationPaths=../../../Engine/Content/Localization/EditorTutorials
+LocalizationPaths=../../../Engine/Content/Localization/Keywords
+LocalizationPaths=../../../Engine/Content/Localization/Category
+ToolTipLocalizationPaths=../../../Engine/Content/Localization/ToolTips
+PropertyNameLocalizationPaths=../../../Engine/Content/Localization/PropertyNames
+
+[ImportSetting]
+CheckSingleInfluenceLOD=False
+
+[LogWindow]
+MaxNumberOfLogLines=2000
+
+[SlateRenderer]
+GrayscaleFontAtlasSize=2048
+ColorFontAtlasSize=512
+
+[AssetTools]
+BlacklistContentSubPaths=__ExternalActors__
+
+[/Script/UnrealEd.ThumbnailManager]
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/CoreUObject.Class",RendererClassName="/Script/UnrealEd.ClassThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Blueprint",RendererClassName="/Script/UnrealEd.BlueprintThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Font",RendererClassName="/Script/UnrealEd.FontThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Texture2D",RendererClassName="/Script/UnrealEd.TextureThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.TextureRenderTarget",RendererClassName="/Script/UnrealEd.TextureThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.TextureRenderTargetCube",RendererClassName="/Script/UnrealEd.TextureThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.LightMapTexture2D",RendererClassName="/Script/UnrealEd.TextureThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.TextureCube",RendererClassName="/Script/UnrealEd.TextureCubeThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Texture2DArray",RendererClassName="/Script/UnrealEd.Texture2DArrayThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.VolumeTexture",RendererClassName="/Script/UnrealEd.VolumeTextureThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Material",RendererClassName="/Script/UnrealEd.MaterialInstanceThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.MaterialInterface",RendererClassName="/Script/UnrealEd.MaterialInstanceThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.MaterialFunctionInterface",RendererClassName="/Script/UnrealEd.MaterialFunctionThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.ParticleSystem",RendererClassName="/Script/UnrealEd.ParticleSystemThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.PhysicalMaterialMask",RendererClassName="/Script/UnrealEd.PhysicalMaterialMaskThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.StaticMesh",RendererClassName="/Script/UnrealEd.StaticMeshThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.SkeletalMesh",RendererClassName="/Script/UnrealEd.SkeletalMeshThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.AnimSequenceBase",RendererClassName="/Script/UnrealEd.AnimSequenceThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.BlendSpaceBase",RendererClassName="/Script/UnrealEd.BlendSpaceThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.AnimBlueprint",RendererClassName="/Script/UnrealEd.AnimBlueprintThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.Level",RendererClassName="/Script/UnrealEd.LevelThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.World",RendererClassName="/Script/UnrealEd.WorldThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.SoundWave",RendererClassName="/Script/UnrealEd.SoundWaveThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.SlateBrushAsset",RendererClassName="/Script/UnrealEd.SlateBrushThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.SubsurfaceProfile",RendererClassName="/Script/UnrealEd.SubsurfaceProfileRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.PhysicsAsset",RendererClassName="/Script/UnrealEd.PhysicsAssetThumbnailRenderer")
+RenderableThumbnailTypes=(ClassNeedingThumbnailName="/Script/Engine.CurveLinearColor",RendererClassName="/Script/UnrealEd.CurveLinearColorThumbnailRenderer")
+
+[/Script/UnrealEd.DefaultSizedThumbnailRenderer]
+DefaultSizeX=512
+DefaultSizeY=512
+
+[/Script/ContentBrowserData.ContentBrowserDataSubsystem]
+EnabledDataSources=AssetData
+EnabledDataSources=ClassData
+
+[/Script/UnrealEd.CollisionAutomationTestConfigData]
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerCapsule",HitResult=(Time=0.25,Location=(X=0.0,Y=0.0,Z=149.999939),ImpactPoint=(X=0.070709,Y=0.0,Z=49.999985),Normal=(X=-0.001414,Y=-0.0,Z=0.999999),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=-0.000019,Z=-50.0),Normal=(X=-1.0,Y=0.0,Z=-0.0),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerCapsule",HitResult=(Time=0.646994,Location=(X=-70.601135,Y=0.0,Z=70.601135),ImpactPoint=(X=-25.879774,Y=-0.000010,Z=-1.759551),Normal=(X=-0.894427,Y=0.0,Z=0.447214),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.25,Location=(X=0.0,Y=0.0,Z=150.0),ImpactPoint=(X=0.0,Y=0.0,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000008,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.0,Z=0.0),Normal=(X=-1.0,Y=0.0,Z=0.0),ImpactNormal=(X=-1.0,Y=0.0,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerCapsule",HitResult=(Time=0.25,Location=(X=0.0,Y=0.0,Z=150.0),ImpactPoint=(X=0.0,Y=0.0,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.000016,Z=30.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=-0.995185,Y=0.098017,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.000016,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerCapsule",HitResult=(Time=0.25,Location=(X=0.0,Y=0.0,Z=150.0),ImpactPoint=(X=0.0,Y=0.000002,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.028589,Y=0.094246,Z=0.995138),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.000018,Z=0.000004),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=-0.990438,Y=0.097550,Z=-0.097550),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerCapsule",HitResult=(Time=0.544464,Location=(X=-91.107117,Y=0.0,Z=91.107117),ImpactPoint=(X=-46.193974,Y=0.000017,Z=19.134171),Normal=(X=-0.898263,Y=-0.0,Z=0.439459),ImpactNormal=(X=-0.878613,Y=-0.086536,Z=0.469628),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=0.0,Y=0.0,Z=89.999924),ImpactPoint=(X=0.070709,Y=0.0,Z=49.999985),Normal=(X=-0.001768,Y=-0.0,Z=0.999998),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerSphere",HitResult=(Time=0.651393,Location=(X=-69.721359,Y=0.0,Z=0.0),ImpactPoint=(X=-33.944271,Y=-0.000013,Z=-17.888544),Normal=(X=-0.894427,Y=0.0,Z=0.447214),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",ShapeType="TriggerSphere",HitResult=(Time=0.767595,Location=(X=-46.480911,Y=0.0,Z=46.480911),ImpactPoint=(X=-10.703819,Y=-0.000004,Z=28.592360),Normal=(X=-0.894427,Y=0.0,Z=0.447214),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=0.0,Y=0.0,Z=90.0),ImpactPoint=(X=0.0,Y=0.0,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=-90.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.0,Z=-0.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=-1.0,Y=0.0,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerSphere",HitResult=(Time=0.608579,Location=(X=-78.284286,Y=0.0,Z=78.284286),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-0.707107,Y=-0.0,Z=0.707107),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=0.0,Y=0.0,Z=90.0),ImpactPoint=(X=0.0,Y=0.0,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=-90.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.000016,Z=-0.000001),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=-0.995185,Y=-0.098017,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",ShapeType="TriggerSphere",HitResult=(Time=0.608579,Location=(X=-78.284286,Y=0.0,Z=78.284286),ImpactPoint=(X=-50.0,Y=0.000016,Z=50.0),Normal=(X=-0.707107,Y=-0.0,Z=0.707107),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=0.0,Y=0.0,Z=90.0),ImpactPoint=(X=0.0,Y=0.000002,Z=50.0),Normal=(X=0.0,Y=-0.0,Z=1.0),ImpactNormal=(X=0.028589,Y=0.094246,Z=0.995138),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerSphere",HitResult=(Time=0.55,Location=(X=-90.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.000018,Z=0.000004),Normal=(X=-1.0,Y=-0.0,Z=-0.0),ImpactNormal=(X=-0.990438,Y=0.097550,Z=-0.097550),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+ComponentSweepMultiTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",ShapeType="TriggerSphere",HitResult=(Time=0.681802,Location=(X=-63.639618,Y=0.0,Z=63.639618),ImpactPoint=(X=-35.355339,Y=0.000014,Z=35.355339),Normal=(X=-0.707107,Y=-0.0,Z=0.707107),ImpactNormal=(X=-0.633158,Y=-0.062360,Z=0.771506),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0)))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",HitResult=(Time=0.750,Location=(X=0.0,Y=0.0,Z=49.999985),ImpactPoint=(X=0.0,Y=-0.0,Z=49.999989),Normal=(X=0.0,Y=0.0,Z=1.000000),ImpactNormal=(X=0.0,Y=0.0,Z=1.000000),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",HitResult=(Time=0.875000,Location=(X=-24.999985,Y=0.0,Z=0.0),ImpactPoint=(X=-24.999996,Y=-0.0,Z=0.0),Normal=(X=-0.888290,Y=0.116945,Z=0.444145),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cone.Cone",HitResult=(Time=0.916667,Location=(X=-16.666687,Y=0.0,Z=16.666687),ImpactPoint=(X=-16.666664,Y=-0.000001,Z=16.666666),Normal=(X=-0.888290,Y=0.116945,Z=0.444145),ImpactNormal=(X=-0.888290,Y=0.116945,Z=0.444145),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.750,Location=(X=0.0,Y=0.0,Z=50.0),ImpactPoint=(X=0.0,Y=0.0,Z=50.0),Normal=(X=0.0,Y=0.0,Z=1.000000),ImpactNormal=(X=0.0,Y=0.0,Z=1.000000),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.750,Location=(X=-50.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=0.0,Z=-0.0),Normal=(X=-1.000,Y=0.0,Z=0.0),ImpactNormal=(X=-1.000,Y=0.0,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.750,Location=(X=-50.000015,Y=0.0,Z=50.000015),ImpactPoint=(X=-50.0,Y=-0.0,Z=50.0),Normal=(X=0.0,Y=0.0,Z=1.000000),ImpactNormal=(X=0.0,Y=0.0,Z=1.000000),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",HitResult=(Time=0.750,Location=(X=0.0,Y=0.0,Z=50.000046),ImpactPoint=(X=0.0,Y=-0.0,Z=50.0),Normal=(X=0.0,Y=0.0,Z=1.000000),ImpactNormal=(X=0.0,Y=0.0,Z=1.000000),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",HitResult=(Time=0.750,Location=(X=-50.0,Y=0.0,Z=0.0),ImpactPoint=(X=-50.0,Y=-0.0,Z=-0.0),Normal=(X=-0.995185,Y=-0.098017,Z=0.0),ImpactNormal=(X=-0.995185,Y=-0.098017,Z=0.0),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Cylinder.Cylinder",HitResult=(Time=0.750,Location=(X=-50.000015,Y=0.0,Z=50.000015),ImpactPoint=(X=-50.0,Y=0.000006,Z=50.0),Normal=(X=0.0,Y=0.0,Z=1.000000),ImpactNormal=(X=0.0,Y=0.0,Z=1.000000),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",HitResult=(Time=0.750,Location=(X=0.0,Y=0.0,Z=50.000015),ImpactPoint=(X=-0.0,Y=0.0,Z=50.0),Normal=(X=0.028589,Y=0.094246,Z=0.995138),ImpactNormal=(X=0.028589,Y=0.094246,Z=0.995138),TraceStart=(X=0.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",HitResult=(Time=0.750,Location=(X=-50.0,Y=0.0,Z=0.0),ImpactPoint=(X=-49.999996,Y=0.000001,Z=0.0),Normal=(X=-0.990438,Y=-0.097550,Z=-0.097550),ImpactNormal=(X=-0.990438,Y=-0.097550,Z=-0.097550),TraceStart=(X=-200.0,Y=0.0,Z=0.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+LineTraceSingleByChannelTests=(RootShapeAsset="/Engine/BasicShapes/Sphere.Sphere",HitResult=(Time=0.823223,Location=(X=-35.355316,Y=0.0,Z=35.355316),ImpactPoint=(X=-35.355335,Y=-0.000003,Z=35.355339),Normal=(X=-0.770780,Y=-0.075915,Z=0.632563),ImpactNormal=(X=-0.770780,Y=-0.075915,Z=0.632563),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0),PenetrationDepth=0.0))
+
+[/Script/UnrealEd.WorldThumbnailRenderer]
+GlobalOrbitPitchOffset=0
+GlobalOrbitYawOffset=0
+bUseUnlitScene=false
+bAllowWorldThumbnails=false
+
+[/Script/UnrealEd.ActorFactory]
+MenuPriority=10
+
+[/Script/UnrealEd.ActorFactoryStaticMesh]
+MenuPriority=30
+
+[/Script/UnrealEd.ActorFactoryInteractiveFoliage]
+MenuPriority=26
+
+[/Script/UnrealEd.ActorFactoryPlayerStart]
+MenuPriority=20
+
+[/Script/UnrealEd.ActorFactoryDirectionalLight]
+MenuPriority=19
+
+[/Script/UnrealEd.ActorFactoryPointLight]
+MenuPriority=19
+
+[/Script/UnrealEd.ActorFactorySpotLight]
+MenuPriority=19
+
+[/Script/UnrealEd.ActorFactoryPhysicsActor]
+MenuPriority=15
+
+[/Script/UnrealEd.ActorFactorySkeletalMesh]
+MenuPriority=13
+
+[/Script/UnrealEd.ActorFactorySkeletalMeshSingleAnim]
+MenuPriority=12
+
+[/Script/UnrealEd.ActorFactoryAmbientSoundSimpleToggleable]
+MenuPriority=10
+
+[/Script/UnrealEd.ActorFactoryAmbientSoundNonLoopingToggleable]
+MenuPriority=10
+
+[/Script/UnrealEd.ActorFactoryAmbientSoundSimple]
+MenuPriority=11
+
+[/Script/UnrealEd.ActorFactoryAmbientSound]
+MenuPriority=11
+
+[/Script/UnrealEd.ActorFactoryAmbientSoundMovable]
+MenuPriority=10
+
+[/Script/BlueprintGraph.EdGraphSchema_K2]
+EditoronlyBPFunctionRedirects=(ClassName="GameplayStatics", OldFunctionName="CreateSaveGameObjectFromBlueprint", NewFunctionName="CreateSaveGameObject", BlueprintParamName="SaveGameBlueprint", ClassParamName="SaveGameClass")
+
+[BlueprintEditor.Palette]
+bUseLegacyLayout=false
+
+[BlueprintEditor.Favorites]
+Profiles=(Name="StarterProfile", FriendlyName="Default Profile" ToolTip="A starter profile, containing some of the most useful nodes.")
+DefaultProfile=StarterProfile
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_Event", FieldName="/Script/Engine.Actor:ReceiveBeginPlay")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_Event", FieldName="/Script/Engine.Actor:ReceiveTick")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_CallFunction", FieldName="/Script/Engine.GameplayStatics:GetPlayerPawn")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_IfThenElse")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_CallFunction", FieldName="/Script/Engine.Actor:GetTransform")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_CallFunction", FieldName="/Script/Engine.Actor:K2_DestroyActor")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_CallFunction", FieldName="/Script/Engine.GameplayStatics:GetAllActorsOfClass")
+StarterProfile=(NodeName="/Script/BlueprintGraph.K2Node_SpawnActorFromClass")
+
+[BlueprintEditor.Menu]
+BlueprintHiddenFields=/Script/Engine.Actor:K2_AttachRootComponentTo
+BlueprintHiddenFields=/Script/Engine.Actor:K2_AttachRootComponentToActor
+BlueprintHiddenFields=/Script/Engine.Actor:DetachRootComponentFromParent
+BlueprintHiddenFields=/Script/Engine.SceneComponent:K2_AttachTo
+BlueprintHiddenFields=/Script/Engine.SceneComponent:DetachFromParent
+
+[UnrealEd.HitProxy]
+HitProxySize=5
+
+[/Script/UnrealEd.UnrealEdOptions]
+EditorCategories=(Name="Matinee")
+EditorCategories=(Name="CurveEditor")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_PlayReverse", Description="Matinee_PlayReverse_Desc", ExecCommand="Matinee PlayReverse")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Stop", Description="Matinee_Stop_Desc", ExecCommand="Matinee Stop")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_TogglePlayPause", Description="Matinee_TogglePlayPause_Desc", ExecCommand="Matinee TogglePlayPause")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ZoomIn", Description="Matinee_ZoomIn_Desc", ExecCommand="Matinee ZoomIn")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ZoomInAlt", Description="Matinee_ZoomInAlt_Desc", ExecCommand="Matinee ZoomIn")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ZoomOut", Description="Matinee_ZoomOut_Desc", ExecCommand="Matinee ZoomOut")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ZoomOutAlt", Description="Matinee_ZoomOutAlt_Desc", ExecCommand="Matinee ZoomOut")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Undo", Description="Matinee_Undo_Desc", ExecCommand="Matinee Undo")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Redo", Description="Matinee_Redo_Desc", ExecCommand="Matinee Redo")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Copy", Description="Matinee_Copy_Desc", ExecCommand="Matinee Copy")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Cut", Description="Matinee_Cut_Desc", ExecCommand="Matinee Cut")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_Paste", Description="Matinee_Paste_Desc", ExecCommand="Matinee Paste")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_DeleteSelection", Description="Matinee_DeleteSelection_Desc", ExecCommand="Matinee DeleteSelection")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MarkInSection", Description="Matinee_MarkInSection_Desc", ExecCommand="Matinee MarkInSection")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MarkOutSection", Description="Matinee_MarkOutSection_Desc", ExecCommand="Matinee MarkOutSection")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_IncrementPosition", Description="Matinee_IncrementPosition_Desc", ExecCommand="Matinee IncrementPosition")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_DecrementPosition", Description="Matinee_DecrementPosition_Desc", ExecCommand="Matinee DecrementPosition")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MoveToNextKey", Description="Matinee_MoveToNextKey_Desc", ExecCommand="Matinee MoveToNextKey")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MoveToPrevKey", Description="Matinee_MoveToPrevKey_Desc", ExecCommand="Matinee MoveToPrevKey")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_SplitAnimKey", Description="Matinee_SplitAnimKey_Desc", ExecCommand="Matinee SplitAnimKey")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ToggleSnap", Description="Matinee_ToggleSnap_Desc", ExecCommand="Matinee ToggleSnap")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MoveActiveUp", Description="Matinee_MoveActiveUp_Desc", ExecCommand="Matinee MoveActiveUp")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_MoveActiveDown", Description="Matinee_MoveActiveDown_Desc", ExecCommand="Matinee MoveActiveDown")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_AddKey", Description="Matinee_AddKey_Desc", ExecCommand="Matinee AddKey")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_DuplicateSelectedKeys", Description="Matinee_DuplicateSelectedKeys_Desc", ExecCommand="Matinee DuplicateSelectedKeys")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_CropAnimationBeginning", Description="Matinee_CropAnimationBeginning_Desc", ExecCommand="Matinee CropAnimationBeginning")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_CropAnimationEnd", Description="Matinee_CropAnimationEnd_Desc", ExecCommand="Matinee CropAnimationEnd")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ViewFitSequence", Description="Matinee_ViewFitSequence_Desc", ExecCommand="Matinee ViewFitSequence")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ViewFitToSelected", Description="Matinee_ViewFitToSelected_Desc", ExecCommand="Matinee ViewFitToSelected")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ViewFitLoop", Description="Matinee_ViewFitLoop_Desc", ExecCommand="Matinee ViewFitLoop")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ViewFitLoopSequence", Description="Matinee_ViewFitLoopSequence_Desc", ExecCommand="Matinee ViewFitLoopSequence")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ViewEndOfTrack", Description="Matinee_ViewEndOfTrack_Desc", ExecCommand="Matinee ViewEndOfTrack")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeAUTO", Description="Matinee_ChangeKeyInterpModeAUTO_Desc", ExecCommand="Matinee ChangeKeyInterpModeAUTO")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeUSER", Description="Matinee_ChangeKeyInterpModeUSER_Desc", ExecCommand="Matinee ChangeKeyInterpModeUSER")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeBREAK", Description="Matinee_ChangeKeyInterpModeBREAK_Desc", ExecCommand="Matinee ChangeKeyInterpModeBREAK")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeLINEAR", Description="Matinee_ChangeKeyInterpModeLINEAR_Desc", ExecCommand="Matinee ChangeKeyInterpModeLINEAR")
+EditorCommands=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeCONSTANT", Description="Matinee_ChangeKeyInterpModeCONSTANT_Desc", ExecCommand="Matinee ChangeKeyInterpModeCONSTANT")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeAUTO", Description="CurveEditor_ChangeInterpModeAUTO_Desc", ExecCommand="CurveEditor ChangeInterpModeAUTO")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeUSER", Description="CurveEditor_ChangeInterpModeUSER_Desc", ExecCommand="CurveEditor ChangeInterpModeUSER")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeBREAK", Description="CurveEditor_ChangeInterpModeBREAK_Desc", ExecCommand="CurveEditor ChangeInterpModeBREAK")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeLINEAR", Description="CurveEditor_ChangeInterpModeLINEAR_Desc", ExecCommand="CurveEditor ChangeInterpModeLINEAR")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeCONSTANT", Description="CurveEditor_ChangeInterpModeCONSTANT_Desc", ExecCommand="CurveEditor ChangeInterpModeCONSTANT")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_FitViewHorizontally", Description="CurveEditor_FitViewHorizontally_Desc", ExecCommand="CurveEditor FitViewHorizontally")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_FitViewVertically", Description="CurveEditor_FitViewVertically_Desc", ExecCommand="CurveEditor FitViewVertically")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToAll", Description="CurveEditor_FitViewToAll_Desc", ExecCommand="CurveEditor FitViewToAll")
+EditorCommands=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToSelected", Description="CurveEditor_FitViewToSelected_Desc", ExecCommand="CurveEditor FitViewToSelected")
+bExpandClassPickerClassList=False
+NewAssetDefaultClasses=(ClassName="/Script/Engine.Actor", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.Pawn", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.Character", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.PlayerController", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.GameModeBase", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
+NewAssetDefaultClasses=(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
+
+[UI]
+ContentDirectories=/Game/UI
+ContentDirectories=/Game/Widget
+ContentDirectories=/Game/Widgets
+ContentDirectories=/Engine/MobileResources
+
+[Cooker.CleanStaticMeshMtrlSkip]
+Class=UnrealEd.ActorFactory
+
+[TextureImporter]
+AllowNonPowerOfTwoTextures=True
+
+[/Script/Cascade.CascadeConfiguration]
+ModuleMenu_ModuleRejections=ParticleModuleTypeDataBase
+ModuleMenu_ModuleRejections=ParticleModule
+ModuleMenu_ModuleRejections=ParticleModuleRequired
+ModuleMenu_ModuleRejections=ParticleModuleSpawn
+ModuleMenu_ModuleRejections=ParticleModuleTypeDataBeam
+ModuleMenu_ModuleRejections=ParticleModuleLocationPrimitiveBase
+ModuleMenu_ModuleRejections=ParticleModuleEventReceiverBase
+ModuleMenu_TypeDataToBaseModuleRejections=(ObjName="None",InvalidObjNames=("ParticleModuleBeamBase","ParticleModuleTrailBase","ParticleModuleVectorFieldBase"))
+ModuleMenu_TypeDataToBaseModuleRejections=(ObjName="ParticleModuleTypeDataBeam2",InvalidObjNames=("ParticleModuleTrailBase","ParticleModuleVectorFieldBase","ParticleModuleLightBase"))
+ModuleMenu_TypeDataToBaseModuleRejections=(ObjName="ParticleModuleTypeDataMesh",InvalidObjNames=("ParticleModuleBeamBase","ParticleModuleTrailBase","ParticleModuleVectorFieldBase"))
+ModuleMenu_TypeDataToBaseModuleRejections=(ObjName="ParticleModuleTypeDataRibbon",InvalidObjNames=("ParticleModuleVectorFieldBase","ParticleModuleLightBase"))
+ModuleMenu_TypeDataToBaseModuleRejections=(ObjName="ParticleModuleTypeDataGpu",InvalidObjNames=("ParticleModuleBeamBase","ParticleModuleTrailBase","ParticleModuleCameraBase","ParticleModuleKillBase","ParticleModuleParameterBase","ParticleModuleLightBase"))
+ModuleMenu_TypeDataToSpecificModuleRejections=(ObjName="None",InvalidObjNames=("ParticleModuleCollisionGPU","ParticleModuleMeshMaterial","ParticleModuleMeshRotation","ParticleModuleMeshRotation_Seeded","ParticleModuleMeshRotationRate","ParticleModuleMeshRotationRate_Seeded","ParticleModuleMeshRotationRateMultiplyLife","ParticleModuleMeshRotationRateOverLife","ParticleModuleTrailSpawnPerUnit", "ParticleModuleAttractorPointGravity"))
+ModuleMenu_TypeDataToSpecificModuleRejections=(ObjName="ParticleModuleTypeDataBeam2",InvalidObjNames=("ParticleModuleSizeScaleBySpeed","ParticleModuleMeshMaterial","ParticleModuleMeshRotation","ParticleModuleMeshRotation_Seeded","ParticleModuleMeshRotationRate","ParticleModuleMeshRotationRate_Seeded","ParticleModuleMeshRotationRateMultiplyLife","ParticleModuleMeshRotationRateOverLife","ParticleModuleTrailSpawnPerUnit","ParticleModuleAccelerationDrag"))
+ModuleMenu_TypeDataToSpecificModuleRejections=(ObjName="ParticleModuleTypeDataRibbon",InvalidObjNames=("ParticleModuleSizeScaleBySpeed","ParticleModuleMeshMaterial","ParticleModuleMeshRotation","ParticleModuleMeshRotation_Seeded","ParticleModuleMeshRotationRate","ParticleModuleMeshRotationRate_Seeded","ParticleModuleMeshRotationRateMultiplyLife","ParticleModuleMeshRotationRateOverLife","ParticleModuleLocationEmitterDirect" ))
+ModuleMenu_TypeDataToSpecificModuleRejections=(ObjName="ParticleModuleTypeDataGpu",InvalidObjNames=("ParticleModuleCollision","ParticleModuleAttractorPoint","ParticleModuleAttractorLine","ParticleModuleAttractorParticle","ParticleModuleAcceleration","ParticleModuleAccelerationOverLifetime","ParticleModuleLocationEmitterDirect","ParticleModuleLocationDirect","ParticleModuleVelocityOverLifetime","ParticleModuleSubUVMovie","ParticleModuleRotationRateMultiplyLife","ParticleModuleRotationOverLifetime","ParticleModuleSourceMovement","ParticleModuleEventGenerator","ParticleModuleMeshMaterial","ParticleModuleMeshRotation","ParticleModuleMeshRotation_Seeded","ParticleModuleMeshRotationRate","ParticleModuleMeshRotationRate_Seeded","ParticleModuleMeshRotationRateMultiplyLife","ParticleModuleMeshRotationRateOverLife","ParticleModuleTrailSpawnPerUnit"))
+
+[CurveEditor]
+bShouldPromptOnCurveRemoveAll=true
+
+[UnrealEd.URLs]
+UDNURL="http://udn.unrealengine.com"
+UDNDocsURL="http://udn.unrealengine.com/docs/ue4"
+OnlineLearningURL="https://www.unrealengine.com/onlinelearning-courses"
+ForumsURL="http://forums.unrealengine.com"
+APIDocsURL="https://docs.unrealengine.com/latest/INT/API/index.html"
+MapErrorURL="http://udn.unrealengine.com/docs/ue4/INT/Editor/LevelEditing/MapErrors/index.html"
+DocumentationURL="http://udn.unrealengine.com/docs/ue4/INT/index.html"
+AskAQuestionURL="http://udn.unrealengine.com/questions/ask.html"
+SearchForAnswersURL="http://udn.unrealengine.com/search.html"
+SupportWebsiteURL="http://udn.unrealengine.com/index.html"
+SourceCodeIDEURL_Windows="https://aka.ms/vs/16/release/vs_Community.exe"
+SourceCodeIDEURL_Mac="https://developer.apple.com/xcode"
+SourceCodeIDEURL_Other="http://en.wikipedia.org/wiki/Integrated_development_environment"
+EpicGamesURL="http://UnrealEngine.com"
+FacebookURL="http://www.facebook.com/UnrealEngine"
+ViewportControlsURL="http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html"
+MeshSimplificationPluginsURL=/ue/marketplace/content-cat/assets/codeplugins
+ReportABugURL="https://epicsupport.force.com/unrealengine/s/"
+IssueTrackerURL="https://issues.unrealengine.com/"
+
+[UnrealEd.URLOverrides]
+UDNURL="http://docs.unrealengine.com/latest/INT/index.html"
+UDNDocsURL="http://docs.unrealengine.com/latest"
+MapErrorURL="http://docs.unrealengine.com/latest/INT/index.html"
+DocumentationURL="http://docs.unrealengine.com/"
+AskAQuestionURL="http://answers.unrealengine.com"
+SearchForAnswersURL="http://answers.unrealengine.com"
+SupportWebsiteURL="http://unrealengine.com/support"
+
+[UserDefinedStructure]
+bUseUserDefinedStructure=true
+bShowDefaultValuePropertyEditor=true
+
+[CustomBlueprintFunctionLibrary]
+bCanCreateNew=true
+
+[StructSerialization]
+SkipByteCodeSerialization=true
+BreakSerializationRecursion=true
+
+[ScriptErrorLog]
+MaxNumOfAccessViolation=16
+
+[/Script/Engine.ParticleSystemAuditCommandlet]
+HighSpawnRateOrBurstThreshold=35
+FarLODDistanceTheshold=3000
+
+[GatherTextFromAssets]
+BatchCount=100
+MaxMemoryAllowance=16384
+
+[CookSettings]
+PackagesPerGC=0
+IdleTimeToGC=20
+MemoryMaxUsedPhysical=16384
+MemoryMinFreePhysical=1024
+MaxConcurrentShaderJobs=8192
+MaxDiffsToLog=5
+IgnoreHeaderDiffs=True
+bUseFullGCAssetClassNames=true
+FullGCAssetClassNames=/Script/Engine.World
+ExcludedIniParams=Game:/Script/BlueprintContext.McpContext
+ExcludedIniParams=Editor:CookSettings
+ConfigSettingBlacklist=*.Engine:Core.System:Paths
+ConfigSettingBlacklist=*.Game:Script/BlueprintContext.McpContext
+ConfigSettingBlacklist=*.UserSettings
+ConfigSettingBlacklist=*.GameUserSettings
+ConfigSettingBlacklist=*.Editor:CookSettings:ConfigSettingBlacklist
+ConfigSettingBlacklist=*.EditorSettings:/Script/UnrealEd.EditorSettings
+ConfigSettingBlacklist=*.EditorSettings
+ConfigSettingBlacklist=*.EditorLayout
+ConfigSettingBlacklist=*.EditorPerProjectUserSettings
+ConfigSettingBlacklist=*.EditorPerProjectUserSettings:ModuleFileTracking
+ConfigSettingBlacklist=*.EditorPerProjectUserSettings:EditorStartup
+ConfigSettingBlacklist=*.EditorPerProjectUserSettings:/Script/UnrealEd.LevelEditorPlaySettings
+ConfigSettingBlacklist=*.EditorPerProjectUserSettings:PlacementMode
+ConfigSettingBlacklist=*.Engine:Launcher.DeviceGroups:DeviceGroup
+ConfigSettingBlacklist=*.SourceControlSettings
+ConfigSettingBlacklist=*.SourceControl.SourceControlSettings
+ConfigSettingBlacklist=*.Engine:WindowsApplication.Accessibility
+ConfigSettingBlacklist=*.EditorKeyBindings
+ConfigSettingBlacklist=*.GameplayAbilities:CoreRedirects
+ConfigSettingBlacklist=*.Engine:MemReportFullCommands
+ConfigSettingBlacklist=*:CoreRedirects
+ConfigSettingBlacklist=*.OnlineGameplayFramework:/Script/Engine.Engine
+ConfigSettingBlacklist=*.Engine:OnlineSubsystem*:/Script/Engine.Engine
+ConfigSettingBlacklist=*.Engine:Audio
+ConfigSettingBlacklist=*.Engine:/Script/LinuxTargetPlatform.LinuxTargetSettings
+ConfigSettingBlacklist=*.Engine:/Script/UnrealEd.CookerSettings:bIterativeCookingForFileCookContent
+ConfigSettingBlacklist=*.Engine:OnlineSubsystemMcp
+
+[CookPlatformDataCacheSettings]
+MaterialInstance=100
+Material=100
+Texture2D=50
+
+[/Script/Localization.LocalizationSettings]
+EngineTargetsSettings=(Name="Engine",Guid=33482D004789784C9DA695A682ACCA1B,TargetDependencies=,AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=True,SearchDirectories=((Path="Source/Runtime/"),(Path="Source/Developer/"),(Path="Config/")),ExcludePathWildcards=((Pattern="Source/Developer/NoRedist/CommunityPortalServices/*"),(Pattern="Source/Developer/NoRedist/UnrealEngineLauncherServices/*"),(Pattern="Source/Developer/NoRedist/BuildPatchServices/*")),FileExtensions=((Pattern="cpp"),(Pattern="h"),(Pattern="c"),(Pattern="inl"),(Pattern="mm"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=True,IncludePathWildcards=((Pattern="Content/*")),ExcludePathWildcards=((Pattern="Content/Editor/*"),(Pattern="Content/Tutorial/*"),(Pattern="Content/Developers/*"),(Pattern="Content/TestPackages/*"),(Pattern="Content/QA_Assets/*"),(Pattern="Content/Maps/Automation/*"),(Pattern="Content/EngineSounds/*")),FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,KeySpecifications=,ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="Editor",Guid=AC8BFD2A41A2FB2893BB8EA0AF903E6D,TargetDependencies=(33482D004789784C9DA695A682ACCA1B),AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=True,SearchDirectories=((Path="Source/Editor/")),ExcludePathWildcards=,FileExtensions=((Pattern="cpp"),(Pattern="h"),(Pattern="c"),(Pattern="inl"),(Pattern="mm"))),GatherFromPackages=(IsEnabled=True,IncludePathWildcards=((Pattern="Content/Editor/*"),(Pattern="Content/Editor*")),ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,KeySpecifications=,ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="EditorTutorials",Guid=00F8E3AD47F0A73D50D46881C14DF28F,TargetDependencies=(33482D004789784C9DA695A682ACCA1B,AC8BFD2A41A2FB2893BB8EA0AF903E6D),AdditionalManifestDependencies=,RequiredModuleNames=("IntroTutorials"),GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=True,IncludePathWildcards=((Pattern="Content/Tutorial/*")),ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,KeySpecifications=,ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="PropertyNames",Guid=E391A8B149980E8154E056AF2DA49479,TargetDependencies=(33482D004789784C9DA695A682ACCA1B,AC8BFD2A41A2FB2893BB8EA0AF903E6D),AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=True,IncludePathWildcards=((Pattern="Source/Editor/*"),(Pattern="Source/Runtime/*"),(Pattern="Source/Developer/*")),ExcludePathWildcards=((Pattern="Source/Developer/NoRedist/CommunityPortalServices/*")),KeySpecifications=((MetaDataKey=(Name="DisplayName"),TextNamespace="UObjectDisplayNames",TextKeyPattern=(Pattern="{FieldPath}"))),ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="ToolTips",Guid=0F116534468918AEA432DD8C77703BA8,TargetDependencies=(33482D004789784C9DA695A682ACCA1B,AC8BFD2A41A2FB2893BB8EA0AF903E6D),AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=True,IncludePathWildcards=((Pattern="Source/Editor/*"),(Pattern="Source/Runtime/*"),(Pattern="Source/Developer/*")),ExcludePathWildcards=((Pattern="Source/Developer/NoRedist/CommunityPortalServices/*")),KeySpecifications=((MetaDataKey=(Name="ToolTip"),TextNamespace="UObjectToolTips",TextKeyPattern=(Pattern="{FieldPath}")),(MetaDataKey=(Name="ShortToolTip"),TextNamespace="UObjectShortToolTips",TextKeyPattern=(Pattern="{FieldPath}"))),ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="Keywords",Guid=AE89AECB47475F420D0D69A5547515DC,TargetDependencies=(33482D004789784C9DA695A682ACCA1B,AC8BFD2A41A2FB2893BB8EA0AF903E6D),AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=True),GatherFromMetaData=(IsEnabled=True,IncludePathWildcards=((Pattern="Source/Editor/*"),(Pattern="Source/Runtime/*"),(Pattern="Source/Developer/*")),ExcludePathWildcards=((Pattern="Source/Developer/NoRedist/CommunityPortalServices/*")),KeySpecifications=((MetaDataKey=(Name="Keywords"),TextNamespace="UObjectKeywords",TextKeyPattern=(Pattern="{FieldPath}"))),ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+EngineTargetsSettings=(Name="Category",Guid=14B8DEE642A6A7AFEB5A28B959EC373A,TargetDependencies=,AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=False),GatherFromMetaData=(IsEnabled=True,IncludePathWildcards=((Pattern="Source/Editor/*"),(Pattern="Source/Runtime/*"),(Pattern="Source/Developer/*")),ExcludePathWildcards=((Pattern="Source/Developer/NoRedist/CommunityPortalServices/*")),KeySpecifications=((MetaDataKey=(Name="Category"),TextNamespace="UObjectCategory",TextKeyPattern=(Pattern="{FieldPath}"))),ShouldGatherFromEditorOnlyData=True),NativeCultureIndex=0,SupportedCulturesStatistics=((CultureName="en"),(CultureName="es"),(CultureName="ja"),(CultureName="ko"),(CultureName="pt-BR"),(CultureName="zh-CN")))
+GameTargetsSettings=(Name="Game",Guid=AE0EA34A45461A25BA65A391026F19F8,TargetDependencies=(33482D004789784C9DA695A682ACCA1B,AC8BFD2A41A2FB2893BB8EA0AF903E6D),AdditionalManifestDependencies=,RequiredModuleNames=,GatherFromTextFiles=(IsEnabled=False,SearchDirectories=,ExcludePathWildcards=,FileExtensions=((Pattern="h"),(Pattern="cpp"),(Pattern="ini"))),GatherFromPackages=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,FileExtensions=((Pattern="umap"),(Pattern="uasset")),ShouldGatherFromEditorOnlyData=False),GatherFromMetaData=(IsEnabled=False,IncludePathWildcards=,ExcludePathWildcards=,KeySpecifications=,ShouldGatherFromEditorOnlyData=False),NativeCultureIndex=-1,SupportedCulturesStatistics=((CultureName="en")))
+
+[/Script/UnrealEd.EditorProjectAppearanceSettings]
+bDisplayUnits=True
+DistanceUnits=EUnit::Centimeters
+MassUnits=EUnit::Kilograms
+TimeUnits=EUnit::Seconds
+TimeUnits=EUnit::Minutes
+AngleUnits=EUnit::Degrees
+SpeedUnits=EUnit::MetersPerSecond
+TemperatureUnits=EUnit::Celsius
+ForceUnits=EUnit::Newtons
+
+[BlueprintSearchSettings]
+AsyncTaskBatchSize=2048
+bDisableDeferredIndexing=false
+bDisableThreadedIndexing=false
+bEnableCsvStatsProfiling=false
+bEnableDeveloperMenuTools=false
+bDisableSearchResultTemplates=false
+
+[BlueprintNativizationSettings]
+bUseStaticVariablesInWrappers=true
+bUseStaticVariablesInClasses=true
+bSkipUFUNCTION=false
+bUsePRAGMA_DISABLE_OPTIMIZATION=false
+bDontNativizeDataOnlyBP=true
+bUseLocalEventGraphVariables=true
+bNativizeAnimBPOnlyWhenNonReducibleFuncitons=false
+ClassesWithStaticSearchableValues=/Script/GameplayAbilities.GameplayCueNotify_Actor
+ClassesWithStaticSearchableValues=/Script/GameplayAbilities.GameplayCueNotify_Static
+StaticSearchableTagNames=GameplayCueName
+ExcludedAssetTypes=/Script/ControlRig.ControlRig
+ExcludedAssets=/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface
+ExcludedAssets=/Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter
+ExcludedAssets=/Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint
+ExcludedFolderPaths=/MediaFrameworkUtilities
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Guid
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Vector
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Vector4
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Vector2D
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.TwoVectors
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Plane
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Rotator
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Quat
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.PackedNormal
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.PackedRGB10A2N
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.IntPoint
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.IntVector
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Color
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.LinearColor
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Box
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Box2D
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.BoxSphereBounds
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.OrientedBox
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointFloat
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveFloat
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointVector2D
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveVector2D
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointVector
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveVector
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointQuat
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveQuat
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointTwoVectors
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveTwoVectors
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurvePointLinearColor
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.InterpCurveLinearColor
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.FloatInterval
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.Int32Interval
+NoExportTypesWithDirectNativeFieldAccess=/Script/CoreUObject.FrameNumber
+NoExportTypesWithDirectNativeFieldAccess=/Script/Engine.DistributionLookupTable
+NoExportTypesWithDirectNativeFieldAccess=/Script/Engine.FormatArgumentData
+
+[/Script/UnrealEd.BlueprintEditorProjectSettings]
+bValidateUnloadedSoftActorReferences=true
+
+[/Script/UnrealEd.AssetViewerSettings]
+Profiles=(ProfileName="Default",DirectionalLightIntensity=2.620000,DirectionalLightColor=(R=0.990000,G=0.839850,B=0.732600,A=1.000000),SkyLightIntensity=0.880000,bRotateLightingRig=False,bShowEnvironment=True,bShowFloor=True,EnvironmentCubeMapPath="/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1",PostProcessingSettings=(bOverride_WhiteTemp=True,bOverride_WhiteTint=False,bOverride_ColorSaturation=True,bOverride_ColorContrast=True,bOverride_ColorGamma=True,bOverride_ColorGain=True,bOverride_ColorOffset=True,bOverride_FilmWhitePoint=False,bOverride_FilmSaturation=False,bOverride_FilmChannelMixerRed=False,bOverride_FilmChannelMixerGreen=False,bOverride_FilmChannelMixerBlue=False,bOverride_FilmContrast=False,bOverride_FilmDynamicRange=False,bOverride_FilmHealAmount=False,bOverride_FilmToeAmount=False,bOverride_FilmShadowTint=False,bOverride_FilmShadowTintBlend=False,bOverride_FilmShadowTintAmount=False,bOverride_FilmSlope=True,bOverride_FilmToe=True,bOverride_FilmShoulder=True,bOverride_FilmBlackClip=True,bOverride_FilmWhiteClip=True,bOverride_SceneColorTint=False,bOverride_SceneFringeIntensity=False,bOverride_AmbientCubemapTint=False,bOverride_AmbientCubemapIntensity=False,bOverride_BloomIntensity=True,bOverride_BloomThreshold=False,bOverride_Bloom1Tint=False,bOverride_Bloom1Size=False,bOverride_Bloom2Size=False,bOverride_Bloom2Tint=False,bOverride_Bloom3Tint=False,bOverride_Bloom3Size=False,bOverride_Bloom4Tint=False,bOverride_Bloom4Size=False,bOverride_Bloom5Tint=False,bOverride_Bloom5Size=False,bOverride_Bloom6Tint=False,bOverride_Bloom6Size=False,bOverride_BloomSizeScale=False,bOverride_BloomDirtMaskIntensity=False,bOverride_BloomDirtMaskTint=False,bOverride_BloomDirtMask=False,bOverride_AutoExposureMethod=True,bOverride_AutoExposureLowPercent=False,bOverride_AutoExposureHighPercent=False,bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True,bOverride_AutoExposureSpeedUp=False,bOverride_AutoExposureSpeedDown=False,bOverride_AutoExposureBias=True,bOverride_AutoExposureCalibrationConstant=False,bOverride_HistogramLogMin=True,bOverride_HistogramLogMax=True,bOverride_LensFlareIntensity=False,bOverride_LensFlareTint=False,bOverride_LensFlareTints=False,bOverride_LensFlareBokehSize=False,bOverride_LensFlareBokehShape=False,bOverride_LensFlareThreshold=False,bOverride_VignetteIntensity=True,bOverride_GrainIntensity=False,bOverride_GrainJitter=False,bOverride_AmbientOcclusionIntensity=True,bOverride_AmbientOcclusionStaticFraction=True,bOverride_AmbientOcclusionRadius=True,bOverride_AmbientOcclusionFadeDistance=False,bOverride_AmbientOcclusionFadeRadius=False,bOverride_AmbientOcclusionDistance=False,bOverride_AmbientOcclusionRadiusInWS=False,bOverride_AmbientOcclusionPower=True,bOverride_AmbientOcclusionBias=True,bOverride_AmbientOcclusionQuality=True,bOverride_AmbientOcclusionMipBlend=True,bOverride_AmbientOcclusionMipScale=True,bOverride_AmbientOcclusionMipThreshold=True,bOverride_LPVIntensity=False,bOverride_LPVDirectionalOcclusionIntensity=False,bOverride_LPVDirectionalOcclusionRadius=False,bOverride_LPVDiffuseOcclusionExponent=False,bOverride_LPVSpecularOcclusionExponent=False,bOverride_LPVDiffuseOcclusionIntensity=False,bOverride_LPVSpecularOcclusionIntensity=False,bOverride_LPVSize=False,bOverride_LPVSecondaryOcclusionIntensity=False,bOverride_LPVSecondaryBounceIntensity=False,bOverride_LPVGeometryVolumeBias=False,bOverride_LPVVplInjectionBias=False,bOverride_LPVEmissiveInjectionIntensity=False,bOverride_IndirectLightingColor=False,bOverride_IndirectLightingIntensity=False,bOverride_ColorGradingIntensity=True,bOverride_ColorGradingLUT=True,bOverride_DepthOfFieldFocalDistance=False,bOverride_DepthOfFieldFstop=False,bOverride_DepthOfFieldSensorWidth=False,bOverride_DepthOfFieldDepthBlurRadius=False,bOverride_DepthOfFieldDepthBlurAmount=False,bOverride_DepthOfFieldFocalRegion=False,bOverride_DepthOfFieldNearTransitionRegion=False,bOverride_DepthOfFieldFarTransitionRegion=False,bOverride_DepthOfFieldScale=True,bOverride_DepthOfFieldMaxBokehSize=False,bOverride_DepthOfFieldNearBlurSize=False,bOverride_DepthOfFieldFarBlurSize=False,bOverride_DepthOfFieldMethod=True,bOverride_MobileHQGaussian=False,bOverride_DepthOfFieldBokehShape=False,bOverride_DepthOfFieldOcclusion=False,bOverride_DepthOfFieldColorThreshold=False,bOverride_DepthOfFieldSizeThreshold=False,bOverride_DepthOfFieldSkyFocusDistance=False,bOverride_DepthOfFieldVignetteSize=False,bOverride_MotionBlurAmount=False,bOverride_MotionBlurMax=False,bOverride_MotionBlurTargetFPS=False,bOverride_MotionBlurPerObjectSize=False,bOverride_ScreenPercentage=False,bOverride_ScreenSpaceReflectionIntensity=True,bOverride_ScreenSpaceReflectionQuality=True,bOverride_ScreenSpaceReflectionMaxRoughness=True,bOverride_ScreenSpaceReflectionRoughnessScale=False,WhiteTemp=6700.000000,WhiteTint=0.000000,ColorSaturation=(X=1.000000,Y=1.000000,Z=1.000000),ColorContrast=(X=1.000000,Y=1.000000,Z=1.000000),ColorGamma=(X=1.000000,Y=1.000000,Z=1.000000),ColorGain=(X=1.000000,Y=1.000000,Z=1.000000),ColorOffset=(X=0.005000,Y=0.005000,Z=0.005000),FilmWhitePoint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),FilmShadowTint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),FilmShadowTintBlend=0.500000,FilmShadowTintAmount=0.000000,FilmSaturation=1.000000,FilmChannelMixerRed=(R=1.000000,G=0.000000,B=0.000000,A=1.000000),FilmChannelMixerGreen=(R=0.000000,G=1.000000,B=0.000000,A=1.000000),FilmChannelMixerBlue=(R=0.000000,G=0.000000,B=1.000000,A=1.000000),FilmContrast=0.030000,FilmToeAmount=1.000000,FilmHealAmount=1.000000,FilmDynamicRange=4.000000,FilmSlope=0.880000,FilmToe=0.550000,FilmShoulder=0.260000,FilmBlackClip=0.000000,FilmWhiteClip=0.040000,SceneColorTint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),SceneFringeIntensity=0.000000,BloomIntensity=0.675000,BloomThreshold=-1.000000,BloomSizeScale=4.000000,Bloom1Size=0.300000,Bloom2Size=1.000000,Bloom3Size=2.000000,Bloom4Size=10.000000,Bloom5Size=30.000000,Bloom6Size=64.000000,Bloom1Tint=(R=0.346500,G=0.346500,B=0.346500,A=1.000000),Bloom2Tint=(R=0.138000,G=0.138000,B=0.138000,A=1.000000),Bloom3Tint=(R=0.117600,G=0.117600,B=0.117600,A=1.000000),Bloom4Tint=(R=0.066000,G=0.066000,B=0.066000,A=1.000000),Bloom5Tint=(R=0.066000,G=0.066000,B=0.066000,A=1.000000),Bloom6Tint=(R=0.061000,G=0.061000,B=0.061000,A=1.000000),BloomDirtMaskIntensity=0.000000,BloomDirtMaskTint=(R=0.500000,G=0.500000,B=0.500000,A=1.000000),BloomDirtMask=None,LPVIntensity=1.000000,LPVVplInjectionBias=0.640000,LPVSize=5312.000000,LPVSecondaryOcclusionIntensity=0.000000,LPVSecondaryBounceIntensity=0.000000,LPVGeometryVolumeBias=0.384000,LPVEmissiveInjectionIntensity=1.000000,LPVDirectionalOcclusionIntensity=0.000000,LPVDirectionalOcclusionRadius=8.000000,LPVDiffuseOcclusionExponent=1.000000,LPVSpecularOcclusionExponent=7.000000,LPVDiffuseOcclusionIntensity=1.000000,LPVSpecularOcclusionIntensity=1.000000,AmbientCubemapTint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),AmbientCubemapIntensity=1.000000,AmbientCubemap=None,AutoExposureMethod=AEM_Histogram,AutoExposureLowPercent=80.000000,AutoExposureHighPercent=98.300003,AutoExposureMinBrightness=1.000000,AutoExposureMaxBrightness=1.000000,AutoExposureSpeedUp=3.000000,AutoExposureSpeedDown=1.000000,AutoExposureBias=0.330000,HistogramLogMin=-8.000000,HistogramLogMax=4.000000,LensFlareIntensity=1.000000,LensFlareTint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),LensFlareBokehSize=3.000000,LensFlareThreshold=8.000000,LensFlareBokehShape=None,LensFlareTints[0]=(R=1.000000,G=0.800000,B=0.400000,A=0.600000),LensFlareTints[1]=(R=1.000000,G=1.000000,B=0.600000,A=0.530000),LensFlareTints[2]=(R=0.800000,G=0.800000,B=1.000000,A=0.460000),LensFlareTints[3]=(R=0.500000,G=1.000000,B=0.400000,A=0.390000),LensFlareTints[4]=(R=0.500000,G=0.800000,B=1.000000,A=0.310000),LensFlareTints[5]=(R=0.900000,G=1.000000,B=0.800000,A=0.270000),LensFlareTints[6]=(R=1.000000,G=0.800000,B=0.400000,A=0.220000),LensFlareTints[7]=(R=0.900000,G=0.700000,B=0.700000,A=0.150000),VignetteIntensity=0.161468,GrainJitter=0.000000,GrainIntensity=0.000000,AmbientOcclusionIntensity=1.000000,AmbientOcclusionStaticFraction=1.000000,AmbientOcclusionRadius=73.477997,AmbientOcclusionRadiusInWS=False,AmbientOcclusionFadeDistance=8000.000000,AmbientOcclusionFadeRadius=5000.000000,AmbientOcclusionDistance=80.000000,AmbientOcclusionPower=1.200000,AmbientOcclusionBias=3.000000,AmbientOcclusionQuality=100.000000,AmbientOcclusionMipBlend=0.600000,AmbientOcclusionMipScale=1.700000,AmbientOcclusionMipThreshold=0.010000,IndirectLightingColor=(R=1.000000,G=1.000000,B=1.000000,A=1.000000),IndirectLightingIntensity=1.000000,ColorGradingIntensity=0.000000,ColorGradingLUT=Texture2D'/Engine/EditorResources/RGBTable16x1_AssetViewer.RGBTable16x1_AssetViewer',DepthOfFieldMethod=DOFM_BokehDOF,bMobileHQGaussian=False,DepthOfFieldFstop=4.000000,DepthOfFieldSensorWidth=24.576000,DepthOfFieldFocalDistance=1000.000000,DepthOfFieldDepthBlurAmount=1.000000,DepthOfFieldDepthBlurRadius=0.000000,DepthOfFieldFocalRegion=0.000000,DepthOfFieldNearTransitionRegion=300.000000,DepthOfFieldFarTransitionRegion=500.000000,DepthOfFieldScale=0.000000,DepthOfFieldMaxBokehSize=15.000000,DepthOfFieldNearBlurSize=15.000000,DepthOfFieldFarBlurSize=15.000000,DepthOfFieldBokehShape=None,DepthOfFieldOcclusion=0.400000,DepthOfFieldColorThreshold=1.000000,DepthOfFieldSizeThreshold=0.080000,DepthOfFieldSkyFocusDistance=0.000000,DepthOfFieldVignetteSize=200.000000,MotionBlurAmount=0.500000,MotionBlurMax=5.000000,MotionBlurTargetFPS=30,MotionBlurPerObjectSize=0.500000,ScreenPercentage=100.000000,ScreenSpaceReflectionIntensity=100.000000,ScreenSpaceReflectionQuality=100.000000,ScreenSpaceReflectionMaxRoughness=1.000000,WeightedBlendables=(Array=),Blendables=),bPostProcessingEnabled=True,LightingRigRotation=109.389069,RotationSpeed=2.000000,DirectionalLightRotation=(Pitch=-40.000000,Yaw=-67.500000,Roll=0.000000))
+
+[/Script/DataValidation.DataValidationManager]
+bValidateOnSave=true
+
+[/Script/UMGEditor.UMGEditorProjectSettings]
+DebugResolutions=(Width=3840,Height=2160,Description="",Color=(R=0.745404,G=0.904661,B=1.000000,A=1.000000))
+DebugResolutions=(Width=3440,Height=1440,Description="",Color=(R=0.439657,G=0.783538,B=0.982251,A=1.000000))
+DebugResolutions=(Width=2560,Height=1440,Description="",Color=(R=0.208637,G=0.644480,B=0.973445,A=1.000000))
+DebugResolutions=(Width=1440,Height=2560,Description="",Color=(R=0.215861,G=0.651406,B=0.973445,A=1.000000))
+DebugResolutions=(Width=2560,Height=1080,Description="",Color=(R=0.064803,G=0.539479,B=0.955973,A=1.000000))
+DebugResolutions=(Width=2048,Height=1536,Description="",Color=(R=0.009134,G=0.462077,B=0.947307,A=1.000000))
+DebugResolutions=(Width=1536,Height=2048,Description="",Color=(R=0.009134,G=0.462077,B=0.947307,A=1.000000))
+DebugResolutions=(Width=1920,Height=1080,Description="",Color=(R=0.000000,G=0.386429,B=0.930111,A=1.000000))
+DebugResolutions=(Width=1080,Height=1920,Description="",Color=(R=0.000000,G=0.386429,B=0.930111,A=1.000000))
+DebugResolutions=(Width=1280,Height=720,Description="",Color=(R=0.000000,G=0.318547,B=0.806952,A=1.000000))
+DebugResolutions=(Width=720,Height=1280,Description="",Color=(R=0.000000,G=0.318547,B=0.806952,A=1.000000))
+DebugResolutions=(Width=1136,Height=640,Description="",Color=(R=0.000000,G=0.238398,B=0.658375,A=1.000000))
+DebugResolutions=(Width=640,Height=1136,Description="",Color=(R=0.000000,G=0.238398,B=0.658375,A=1.000000))
+
+[/Script/UnrealEd.DiffAssetRegistriesCommandlet]
+P4EngineBasePath=/Engine/Content/
+P4EngineAssetPath=/Engine/
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      )       Ïÿÿÿ,       Š              3       Äÿÿÿ1       Š              3       Äÿÿÿ2       Š              3       Ãÿÿÿj       Š              3       Âÿÿÿ£       Š              3       Âÿÿÿ¨       Š              3       Áÿÿÿd       Š              3       Àÿÿÿl       Š              3       Àÿÿÿq       Š              3       Àÿÿÿr       Š              3       Àÿÿÿz       Š              3       Àÿÿÿ|       Š              3       ¿ÿÿÿm       Š              3       ¿ÿÿÿn       Š              3       ¿ÿÿÿs       Š              3       ¿ÿÿÿt       Š              3       ¿ÿÿÿx       Š              3       ¿ÿÿÿy       Š              3       ¿ÿÿÿ       Š              3       ¿ÿÿÿ‚       Š              3       ¿ÿÿÿ†       Š              l       Àÿÿÿ6       Š              m       ¿ÿÿÿ7       Š              q       Àÿÿÿ8       Š              r       ŞÿÿÿB       Š              r       ŞÿÿÿD       Š              r       ßÿÿÿB       Š              r       ßÿÿÿD       Š              r       ÓÿÿÿB       Š              r       ÓÿÿÿD       Š              r       ÒÿÿÿB       Š              r       ÒÿÿÿD       Š              r       ĞÿÿÿB       Š              r       ĞÿÿÿD       Š              s       ¿ÿÿÿ9       Š              x       ¿ÿÿÿ:       Š              |       àÿÿÿ‰       Š                     ¿ÿÿÿ;       Š              ’                   Š              ’                  Š              ’                  Š              ’                  Š              ’           	       Š              ’           
+       Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š              ’                  Š       ïÿÿÿ            À          ¸	      mİ                                            ÿÿÿÿ                òÿÿÿ            ”          A       %ç                                            ÿÿÿÿ                îÿÿÿ           l         ¯B      fç                                             ÿÿÿÿ                éÿÿÿ           m         æ      *                                            ÿÿÿÿ                éÿÿÿ           m               û-                                            ÿÿÿÿ                èÿÿÿ           n         h      3                                            ÿÿÿÿ                èÿÿÿ           n         h      i6                                            ÿÿÿÿ                íÿÿÿ        P   q         -      Ñ9                                            ÿÿÿÿ                íÿÿÿ        Q   q         -      ş:                                            ÿÿÿÿ                íÿÿÿ        R   q         -      +<                                            ÿÿÿÿ                íÿÿÿ        S   q         -      X=                                            ÿÿÿÿ                íÿÿÿ        T   q         G      …>                                            ÿÿÿÿ                ìÿÿÿ           B       	         Ì?                                            ÿÿÿÿ                ìÿÿÿ           D       	         Ø?                                            ÿÿÿÿ                ìÿÿÿ           B       	         ä?                                            ÿÿÿÿ                ìÿÿÿ           D       	         ğ?                                            ÿÿÿÿ                ìÿÿÿ        7   B       	         ü?                                            ÿÿÿÿ                ìÿÿÿ        7   D       	         @                                            ÿÿÿÿ                ìÿÿÿ        9   B       	         @                                            ÿÿÿÿ                ìÿÿÿ        9   D       	          @                                            ÿÿÿÿ                ìÿÿÿ        :   B       	         ,@                                            ÿÿÿÿ                ìÿÿÿ        :   D       	         8@                                            ÿÿÿÿ                ìÿÿÿ        ;   B       	         D@                                            ÿÿÿÿ                ìÿÿÿ        ;   D       	         P@                                            ÿÿÿÿ                ìÿÿÿ        A   B       	         \@                                            ÿÿÿÿ                ìÿÿÿ        A   D       	         h@                                            ÿÿÿÿ                ìÿÿÿ        B   B       	         t@                                            ÿÿÿÿ                ìÿÿÿ        B   D       	         €@                                            ÿÿÿÿ                ìÿÿÿ        C   B       	         Œ@                                            ÿÿÿÿ                ìÿÿÿ        C   D       	         ˜@                                            ÿÿÿÿ                ìÿÿÿ        D   B       	         ¤@                                            ÿÿÿÿ                ìÿÿÿ        D   D       	         °@                                            ÿÿÿÿ                ìÿÿÿ        E   B       	         ¼@                                            ÿÿÿÿ                ìÿÿÿ        E   D       	         È@                                            ÿÿÿÿ                ìÿÿÿ        F   B       	         Ô@                                            ÿÿÿÿ                ìÿÿÿ        F   D       	         à@                                            ÿÿÿÿ                ìÿÿÿ        G   B       	         ì@                                            ÿÿÿÿ                ìÿÿÿ        G   D       	         ø@                                            ÿÿÿÿ                ìÿÿÿ        H   B       	         A                                            ÿÿÿÿ                ìÿÿÿ        H   D       	         A                                            ÿÿÿÿ                ìÿÿÿ        I   B       	         A                                            ÿÿÿÿ                ìÿÿÿ        I   D       	         (A                                            ÿÿÿÿ                ìÿÿÿ        J   B       	         4A                                            ÿÿÿÿ                ìÿÿÿ        J   D       	         @A                                            ÿÿÿÿ                ìÿÿÿ           B       	         LA                                            ÿÿÿÿ                ìÿÿÿ           D       	         XA                                            ÿÿÿÿ                ìÿÿÿ        	   B       	         dA                                            ÿÿÿÿ                ìÿÿÿ        	   D       	         pA                                            ÿÿÿÿ                ìÿÿÿ        
+   B       	         |A                                            ÿÿÿÿ                ìÿÿÿ        
+   D       	         ˆA                                            ÿÿÿÿ                ìÿÿÿ           B       	         ”A                                            ÿÿÿÿ                ìÿÿÿ           D       	          A                                            ÿÿÿÿ                ìÿÿÿ           B       	         ¬A                                            ÿÿÿÿ                ìÿÿÿ           D       	         ¸A                                            ÿÿÿÿ                çÿÿÿ        8   s         0      ÄA                                            ÿÿÿÿ                æÿÿÿ           t         h      ôD                                            ÿÿÿÿ                åÿÿÿ        <   x         N      \H                                            ÿÿÿÿ                åÿÿÿ        =   x         N      ªI                                            ÿÿÿÿ                åÿÿÿ        >   x         N      øJ                                            ÿÿÿÿ                äÿÿÿ           y         ˜      FL                                            ÿÿÿÿ                äÿÿÿ           y         (      ŞP                                            ÿÿÿÿ                äÿÿÿ           y         ‘      V                                            ÿÿÿÿ                ëÿÿÿ           z         (      —Z                                            ÿÿÿÿ                êÿÿÿ           ‰                ¿[                                            ÿÿÿÿ                ãÿÿÿ        K            Á      Ë[                                            ÿÿÿÿ                ãÿÿÿ        K            Ş      Œ]                                            ÿÿÿÿ                ãÿÿÿ        L            /      j_                                            ÿÿÿÿ                ãÿÿÿ        L            L      ™a                                            ÿÿÿÿ                ãÿÿÿ        M                  åc                                            ÿÿÿÿ                ãÿÿÿ        M            /      ÷e                                            ÿÿÿÿ                ãÿÿÿ        N                  &h                                            ÿÿÿÿ                ãÿÿÿ        N            /      8j                                            ÿÿÿÿ                ãÿÿÿ        O            /      gl                                            ÿÿÿÿ                ãÿÿÿ        O            L      –n                                            ÿÿÿÿ                âÿÿÿ           ‚         q      âp                                            ÿÿÿÿ                âÿÿÿ           ‚         q      Sv                                            ÿÿÿÿ                âÿÿÿ           ‚         q      Ä{                                            ÿÿÿÿ                âÿÿÿ           ‚         q      5                                            ÿÿÿÿ                âÿÿÿ           ‚         q      ¦†                                            ÿÿÿÿ                áÿÿÿ           †               Œ                                            ÿÿÿÿ                áÿÿÿ           †               –                                            ÿÿÿÿ                áÿÿÿ           †               •                                            ÿÿÿÿ                áÿÿÿ           †               ”™                                            ÿÿÿÿ                áÿÿÿ           †                                                           ÿÿÿÿ                             õÿÿÿK   P      <   =   >   L   Q   M   R   N   S   O   T      8   ?   @                                    -   .      /   0      1   2      3   4      5   6      Ûÿÿÿßÿÿÿ   Úÿÿÿßÿÿÿ   Ûÿÿÿßÿÿÿ   Úÿÿÿßÿÿÿ   ÙÿÿÿÓÿÿÿ   ØÿÿÿÓÿÿÿ   ×ÿÿÿÒÿÿÿ   ÖÿÿÿÒÿÿÿ   ×ÿÿÿÒÿÿÿ   ÖÿÿÿÒÿÿÿ   ×ÿÿÿÒÿÿÿ   ÖÿÿÿÒÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   ÕÿÿÿĞÿÿÿ   ÔÿÿÿĞÿÿÿ   İÿÿÿŞÿÿÿ   ÜÿÿÿŞÿÿÿ   İÿÿÿŞÿÿÿ   ÜÿÿÿŞÿÿÿ   İÿÿÿŞÿÿÿ   ÜÿÿÿŞÿÿÿ   İÿÿÿŞÿÿÿ   ÜÿÿÿŞÿÿÿ   İÿÿÿŞÿÿÿ   ÜÿÿÿŞÿÿÿ            7                                 9      :      ;          Ñÿÿÿàÿÿÿ   ûÿÿÿ         úÿÿÿ         ÿÿÿÿ         şÿÿÿ          øÿÿÿ!   "      ùÿÿÿ#   $      ıÿÿÿ%   &      üÿÿÿ'   (      öÿÿÿ)   *      ÷ÿÿÿ+   ,      A   B      C   D      E   F      G   H      I   J            	      
+                                       ×  ‰PNG
+
+   IHDR         \r¨f    IDATxì½WŒdé™¦÷…÷.½­Ê²]¦«»›Í&¹ä;ÃîJivµ²€ º @ÀŞIZ@º–€ AÀŞh]Vn íŒFärvF3C²iÚ—7é]dxoô¼TVW»È™§2#ó?İQ™qâÄ9ÿ‰Ï¿ßûÌlÈÃo~ü
+œÂÂkö—ìWÀ¯Àãğ
+Àü
+œâğ
+àß|é~¼ğß¿§x¼8Å7ß_º_¯ üwÀ¯À)^¯ NñÍ÷—îWÀ+ ÿğ+pŠWÀ+€S|óı¥ûğ
+Àü
+œâğ
+àß|é~¼ğß¿§x¼8Å7ß_º_¯ üwÀ¯À)^¯ NñÍ÷—îWÀ+ ÿğ+pŠWÀ+€S|óı¥ûğ
+Àü
+œâğ
+àß|é~¼ğß¿§x¼8Å7ß_º_¯ üwÀ¯À)^¯ NñÍ÷—îWÀ+ ÿğ+pŠWÀ+€S|óı¥ûğ
+Àü
+œâğ
+àß|é~¼ğß¿§x¼8Å7ß_º_¯ üwÀ¯À)^¯ NñÍ÷—îWÀ+ ÿğ+pŠWÀ+€S|óı¥ûû%8+€Ş¸p=†üÏC?İƒ~;5+àÀ©¹Õ‡Šğ#f¡(òBæûfıÙ ËR~;M+àÀiºÛ²ø}üoı®ÍşÖoÛb¡`áxÌşìŸüïÖı_şGA‹ÕğJà4}%¼85wû±ËåŸşÚoØ¿÷ïØÙdÄüÙ¥sö~&mŸü£8ò¼85ß
+Ÿ<5·Z:ò "©¼úCë‚Ö
+†,{ù¢Í|å«£àT­‡¿X¯ NÓw@N [¹Ú°J½c”@­?°Ûµİ’÷ÿ$1øxG··ÿç$¯€W 'ùî>¹¶Çîÿã¬ccßŠ5+uúVlöl»Ò²V<e–™~òÿËéXŸ8÷ùPèb‡6¨5ì`}ß¢É¸uÛ}»¹^µa—¯Ba÷`ã©< Oô¯‡W 'ı;« ûŸÎfíõ¯ÚÅù¸¥«[–»U±`0lånĞ¶öÿš¶®Ò P<Üæ•Àã…8‘?¼8‘·õğ¢dùU÷ç6Sûÿú{ïÚõë×lv*aÓ¡}ËÇú…­ÚŞäĞ¢_ÿŠıOP@ğ@èğXşçI\}C¼Š?‰wöĞò‡¶ô7×^{ï+öÆâ¬ÅIK &³6ÏZ$²f»k„«Û;öƒ÷?´ïıÑ÷¬ıÙ_<ÆÈğ_‘ùá¢¼8©wÖYş˜½ı÷ÿ{í»ÿ²---Z4´Æ `q¬{*° U€T4h,}@`”oC³Õ²­-ûàŸß¾ÿŸı}³nƒ:NìbÚó!À‰¼õH2±üÿÑj—¿ûwl89aëHø€ÿº} PŸ¿kõ®Mäc…¬ŞX<´D2e™óìµ‰iëR%ø“ÿü?>‘+ä/j´^œÔo ŸÔÒ%êı«”wà£aÂû¾ÅÓ1kUÛÖªtlj9oé|ÜZT¢‘Å"AKÆÃ–'lñ/[hbÑúÅUVÉ‡'ñ«âÀI¼«º&²ø·ïÚ~3fmåóHöcqëµš–(ä­ßèØ°Ó³^§a‘tÜÚu~&&'ˆ…-€¢èŞ¹oÃB~;±+àÀ‰¼µHü g[ö‡6ı^ÒÉ¬ƒşÓYÿ:¡ ¢Ü×ëÚ ÙÁKh£êËiì[%ĞŞßµí?ø?lPÙa…¼õ?‘_.Ê+€“zgÚæGl3×ìÆåW-X¹ƒ{Ÿ›µÉ‰œe1’€äbQku{ÖáïJ#éÛvµjŸ>ºeÍŸ~Ïÿ‰ı~Œ.Ì+€{ƒå÷õı‹?°…™ -LçíQ%ØoÉf“QK‘£¬?[HpewÍ&[ög}Äû~lÃš¬¿ßNò
+xp’ï.^À`ï®mİù¹…KÖ³ÎÃV+îZ<@:—³V³iíVÛB …B­[]ÿ¡}üÇ`İû÷Y¹şŞı?É_¯ Nòİu×6´µı6`K
+æ°N³mÛõ]ã6ètAR6
+¡•ËeÛÛ/øUñ8Z¯ NÁ7¡OË/¾¾…£q‹'3ãgŸ„ /@»g!° ÍÎõû=«7ş9Ü„Óæ=Ñ:œ¬½8Y÷ó¹«	o»İ&ÆoZ'\÷_²8„ !ë[¥x`¡D†aˆP cíJeĞqJà¹ù?Oè
+xpBo¬CyÇãƒâ5U+·V gqBp€öín­kK—V,‘NX³Vµ^eÓ	6“µJµÌÊ<¶ş®)H¿{/à¤}]şƒ“vQ§÷z$¤z-[°KÿÁb3ßú;6Ás¡NÙö©÷G¢ ĞÃ~€ßGZÖ©ìZ°ñĞ’)8ççmÿ€¾€6‡ã+â˜‚Wõ±R8üÓÿëğÀXß¾§Oæ	ª{-÷õ¿mÉ³W­W,ğK[${ÃÒuvkK¤œÕOe‹­Ñ¨Y¯±V o¼†¥ó­‹‡ğY¢`…_¶Í>±İ?û#ë¯İDy¨1èP	xàé;0¿ëNú»8wîÉ9låÂe»şÚëöêÕW,ŸËX39a?,ØÎÃú#Ã¡·@º`ÍAÈ*Û-„ãV˜¶ÉÙ‹ÆÓV…°­Ùtb×êTÎ,Ÿµ,¨Á¥ó–^<k-ª÷>şÈş¯ülıÏ =!ÑIø¯Ï“[1†¿ø`oÚè”ÑİÄò¿ó»×şİóß°¿ñŞ{¶BËo2“³ÆÔŠmlìÙğÖg–ëîX,Ô³FyÏºÕ]³HŞÊ|•şÿr¹fíá@¯i¹HÙæÖQ nÿü[ïÚäÊ9ËíïØ|¿i—fí
+¦F®`íş½QTğ$7pèŒíbÚ÷
+`,o}À&¿úûÚßû÷ìwóÛ¶2S°=ş{dõï'¦íÖnİªïÿÔ‚íšEÌ?=İ^w?f±Ô¤"Eâ–ÄÊ'u”>†+ n‹„m0±`á‹¯X¦^µlqÃÒÖ%‡ÀëSvíÊU»òúÛ6½|Şöww­Q«<^Aï	ŒãWÉç Æñ®Áèóî¿òwíÛßø†¥÷W­¼¿na ½½€íäf¬³vË" ûºŒüêwš0‚…,‹àKÙ µ•€>¹‚LÌ,Ø³68N§mmJ…}’ƒá…K¤’–İ)|!‡¶Ñ—åìô½ïÚÅW®Y>›±ÿá¿ûoè)"Yèä_ÿxE0N_)¯ Æén¹sØìïüëXá7¬ĞkXqíYíÀ¹ä;™E×cšyš}šXÿAà6¼Ñ²½ZÍ²€Ä'­ÙX}ï^@År@‚“é¤monZa*O»0ïï56 I(K€æ¡Z•|B(‚" ¡è·ÛŞşÒö³ŸşÔşûø_¹Dú´Ò8}¥¼§»¥sÑwå½¯[z¢`•{ÛŞö¦µˆï£©œíNg-Œğ76Ö±Ê”özm`¿-«5šÖ¬×­ßC)Àü+Dl. W[³|Bâ@ÀÔ²³^3Ë’Ğûˆÿsá 6=`Õ
+Ôá(—Ê"
+¯@$°lnÊÂxÃ«¯ÛoöGÿõÉ	Â-æ•ÀØ|«¼›[õøDqİcÙ~C‹QªÊ¯V«[¨°bƒtŞ‚¸ü-,w„x?13kÁAÜªuâtÇ÷¨T8¨Üsü€á|Y' YÈşî¾Í@¶pşœ•£Qk—ŠÄ÷5*È3•¿*Jdn!„Á/ĞÎMØ6„Ë‰V9ü¯ÚÄ·ÿ5+~ïå(¿Å
+x0·é©“Ä
+7+5Û¨HĞûXm@0m‰3–€ñ7Ü©ì¡ñ!ŸŸ#£é P„àX’D`‚â@`’†Ñ8 ŸÉ)(ÀÎâ7rA‚Sä`*À8 ëX/!™L"Ûˆà4i"*V÷,¸S¶z¦^»jçÿÃßşç¼ŠŸÀ(ì*O·ÿõX®€W Çò¶ü’“Â—ü§¶›)XW<J[k*gõÜ´¥"túuèüÃ½¯ö„§°ô‹R÷ÏNæ,Ÿ/X:!†§ÿ¿İÂKˆØDçñ(²</åÉåm2¶0¥À@jÎ•ì+ğàÄ=r
+ÃvÅ¢Y]hw¿ÌXäaäağ»Ûşñ­O¬N® -ğK.Ä¿tVÀ—Ã]ø+Ãpİt(fµìŒCùu&æàùËX!N¬¾¾j{|H?€ü÷ 5şq|6&Ñ— ~Bş	!QÌæ²vñÂ[9³l‹xf$ ÕëJú)dĞ{1ˆDIVJ‹È/´¨0ı{ Ü)3jŒş$ÉÂ¹¥ò=ÛÙdÌ˜ßõ
+xàXß/>¹È$–¡ë“ü+½€·»@èAÇßö†Q ´.¼NÃ3ù§¼j¥V…r^á¹i@ı9 ÁÏ¿gg‘!€7°-@œ­Ã~00ú]
+Cèß½@Äv¶k$kP†÷ğàdªP<%ŒˆYPIÂTÌ¾ôæÂ‹Eu{xëc.Â{_|'şY¯ şü•Ï ½tÅºÀu%p%„lnÿ(uÿa·KCOİ..Í"ğ+A’[˜·é¥Øş&Ÿ3/Âê,èüå+vöÌ’…,9#ŞoT*ŠÆf ÅS "g0@a6à3I"ŠC ÕsCDºTäL¤Sa`ÈÊ1„©*˜?»hßùïØ³	»ùégÖTä·ã·^¿{ò+Îh÷¶UIÌ¥çÏX³|Ï&bMF}_ ˆ¡.íÙìDÖfàõÿğî6^~×2d÷#Áñ?C?ˆõs“s6»´„ĞÆQCgı{”+dôët
+TL7 ËX
+|€¨Â¸°ï ‚GĞ	÷PHzŸ#ÂíJİ¶6Š`P0ÌÈÒöê•„3vïş#ûŞş¡­=¸ó+®Í¿ü²WÀç ^öŠÿ>¯õà3+}ôÖSÃßß´$0İÆş¾ÕÖZ¶ºo{éD¡ïÛDŸwîŞ£ŒÇ@*…éY[8«fŸ–_eAC°Éè+V*Õ‰İ±ğXúÏ5jMHßUTìÁTh€‰Èı@ãÉ/È³ĞÀ‘&Š ¦ÑãûU§,’Ì(Lämjf†$ä”mom[µ|ğkXˆ_×
+xğëZÉ#8Nêî™éIË Ô*áõKû62î«àâ||u{¸¾a·nY³€	8‰ÛÁæçf	éÉÀØ’ğïU­BYQ0`õÿ+yˆhSÉ#d`RPOATaa?/å’IY4Ç“€X”ßå!tÅ$DU ÇÑåQÁ#BˆRNL&â–Éd(1¶ìÎÍÏ`¥üG¾h¼xÑÊûç–Ÿ™³¥W®[4?i]r+=Æ¥ÇMïÂõßæÑ’kp×@®\8oo¿õ&ŞA”}D>  „å?¨#´âRüNÌ•aÙc	’‹„Ù,=ì«G%¦¯ ª<‚L%x(öQ‚ìB)†"á3»(ŒJ©ZmP†âqD-F5µckûÕ=-'èÀXŞé€½ıÛ¿gË+ç°ĞQë`µ$÷°Ó–T²e w}ˆÀª	(IÓÀ3a¿ù[ß&ã?:òûTmkó€–à.ûóœâ{VÙ0Ÿ²É™<ÿ¸* v J!÷ß)DYï(yH0ŒpGØ7•Ï¡\ÌuZA)VQ>•rÕR)0“›š£#1mîÜË•?i'íÀ_ò*.—ø8lÓç®Ú·ïß"[Ÿ°½õG¸ÿ-ƒ‡¨ËGİ8o¡÷ÉÏ! õ%ë|ùê5»şê50¼@ßl´áØÇ;h8AÖ¥ÉúÇ e)›`H2‘`g<)¼u´(5êÑ£â W_MC
+dı„YÀÔì4ÈÃ• É¨æÔñ2T	2™¤¥2yš–B¶¹ú€ãûí(W ]í·_µï¼ó]¿~ıWíöÒ^_:{÷aš˜±©¥Ğy5¬	ò¯K	°$wº„´nb­GÉ¿¹…E2ô1’z„ïæîmmW¬A\Şé×¦Xn{·?_ÈºÒ_‡Bå¿¡Jxª´%ºÂ€
+ì‹Ğâg³LÆ K—!ãÆ-b„ç._´¹å%p£BS™0cÏ$}H’rÂÎ_z…õ’šòÛQ®€÷ ~ÅêÿÆo|Ë¾õ­o;ëÿé§ŸüŠ½_ÎË¹Âñÿ‚¥
+Ó–%˜Ÿ'ˆXø-ó]v_Ù{uåéy•ÏÓµ—ÆúH6)õ­­îê£İ—¿åÙ8ÄÖnnÚ2Ù´{N9‚‘×3t¿¯š?@E2¤áG}jü’{p•’€M”QOÇ£i(T¹Z)£4àD™ôÙ/ÆÂh<ãößÛÙ±Rqïå,šÿ”/\¯ ¾pYFO^¼xÉ¾ùÍßpİr}ü±­®äU ÄŞ‹­6_Uñ3(„t8ğä¼ÅxèlÕJÖÁuïò8õ†]¸|{PˆØ½RªÙöz¡å¬ş B¥ ³tJtQú“x¿ÏçŒF„+§ÀóHú@vœ¼ÃP¹M  ïâ´T>E¥Â€Ë´ğLx1ˆsKœï$èAÊÿÓ~öKî€é¯{<è—¬°\ÿY’V‚­ÿÇ?ü%{¾Ü—2àú{•=Ûù¤l¥í]ËÎ,[bbÔàzWé÷]yN¹<-¿IÑ“”§7é ì`­Û¢
+#E¨U×€üÓ¦
+‚€«÷Ëºã	(VÔè°!£ÅyuíèS1 ûD‰ñkz«ë#¨Kèã}P°™ÙY—‡(”,?9i3T.(1¸$åÈL' &-n¯»÷ú^ş
+xğ‚5¿JÒìYö½öëkÎ’½`×—úôââ’]&~îËk„W«´
+¯D)p—rŞ!ÁMÇ®º9(Äı ²Şó(WI°4·+k½˜^#‰P%ÁsÊîË]Wx ÀØ5Iøeí‘^Wß—K/Å Aû&b	¦²Vë£dÈ=4á
+Œ$¨>LO‘ˆ;Î‚••(¥F³ærï¼÷5ûş?ı}€GO#{©Kzª?Ì+€Üş¯¼û®ëß&NıÙÏú‚½^îÓYÚvßxíGÌ!‚v%ğŠ<úĞvÖoÃùG¹-Ğ1Ğ¸ÄûXvÅŞœ¦’ChÀxÊêôû7Iè¬¼„—ÂÔë›ô(Ûïà¿$ß+U§r_!ï(ûOÆ?Eı_‚
+šx@š¤Ç@X"»/šr”şÄ$œ¡957OY2I’×Éˆtıõ7"íÙşä{/w1ı§¹ğ
+à¾.\ÀK‹¯»WKG_Æ²¿ù¥/ÙÂò2q»,7B‹õÑG_£3po×YïµşÈ;	j¥ÑB¨÷öKÖbößè½Féï’ÄSÜõZ·œ«-Òé£ŞŸÏÒİ§«Çp˜‡¾,RYĞ*†)†éB(W€×PG$²Xy•ıZC@@XùLİœ£ŠÄ9Xd-Óyú&¦ÜlÂD"kªPøíhVÀ+€çÖ](ºå3g(‘m»XYğÕã°9s–Î½—osN„¶/áÄ"—Š4â¬ºÓLÑì£›²õ,}‹ıÆ”éÜZİ$ÃŸtV;–*8$SÏŒp<JNø»ƒ°MOäØ¨¤!ış˜õ!ğàÇäÀî¡*ºÀUòFa€Ú‰GV=ˆbêª¬HË°€JşåDòÁlx+ç^¹d3K(!ğ”»ä#üv4+àÀsëG jX.}Áó^ÖêG›ÆaêY^>ƒ`'Éì+cR!4§	èŞîW‹¥½võªsÓ×KÈKèÑ¨ÅaíIX}R/ùÇ¹9Ç¤Î¾(È¿­­-kSV¢l—Iw¬Âu'á'Ç‡Àá•$tOnØ¿…wA)‚çG¹Ó¢—ğ÷Hbÿ.à¤n…NBáH–Q¬wI>Ö!™&!(¦¼€ßf¼xnİÓ¸Î"Ùìt9ëËÍıˆ7eñ³”ÎÄ÷bàQÃN“5]_[³İóX¦`n“ØÙ£1ˆ{„š{¥±ÍRĞöa»¹N£N	%ƒû/»/Yı×Ûî3B¤µF7fÕ–2ı8ƒ6Ä =Ü}R(yaEÔc ¼@Î?y
+=”’‡}”‚Í:åI„¼‡ĞB™Æ@,jâJ}ò
+{›0™­¹BÛ1½ĞÍ0‚lgıá¯ôéûx¯ »ç³s3<#ä[äÚ•É°õ–š}•é~0ü¶©­÷ÚÌ+Òşûğş]âêµÏO÷\ì=i†*—.ÌZaù5Û*ö!Ùf¨½áÔà@x™<¿rKÎ˜0Jt"-ñº ¼¡H×ö+];;G£œ‚A«#º´#àØ€{(U DªÏ‚0$·Ÿî¿6Ç«ÕÊxô´ú0óBx#äÒº¶JƒB¯s-ª<2³pvY†^¸õy™ÿxğÜjk0f·ZÖM—™î£ÜpÿÍŸ½bıè´mÖ;¦k¯ÏŒ?Åü›kœ¢:<¿b±h·ïŞ…×o·>Bœ}ÍÌ	ÔÈ°6d¡!zHy¨[¯ˆ°G‹eWû¯–ø Q=Í@$ô°æõÖÀJuP@ƒ­Wu 3UFŒB%¦6âI?•åş7±ì}K³ò’Ş j±V}eÃòŒJ’y$,PÎÀ½E °2’ÊYøíå¯€W Ï­¹¾ˆúO™uıÌ3%'Äïª»Å6{†±ŞŒûê#¸,l“æÚiÕH#/åóMy J¹ê‹çß´`|‚ü £¿~yˆÕW×!aÇ—@Xü›rM@J(
+5Øe(d  Ä»EØÅ§b–FxƒÃ¶Kò ƒ‚òBA¦ø]Ö¼‡7Ğ¡¢Ğ¡ö_ÙßÀİ§fŸ!áÉgâH9PÕ) íˆ_aJj(òÛË_¯ [óÊTJ ºÖWÄ¤T:p£³är¿ìmæÌvåoQCŸ!1Iœğím>´G7†e-?s:	…—/^¶Å+_±ÙKo‚¹Ï35hv&ãÉHY4°ÎAP|©©gy†~‚íIe\3
+ ¸¥ ë…ë_;Ò/6Ä80lCFÉ†”ø*$»Ôó¥0•T’›@Ü„|”cµQX¡¬ÅA’†È”PFÊÈ¤HœRê+puÉg®Èÿñ2VÀ+€çVymu¤T::8w,“„aeånuÁîŞ½óÜŞ¿¾?ßúæßDÙ”íîÏìgÎßÙKoÙÄÌl$ÉH ?}bî® ·ÈMváDpïMLó'ÉØC>ÿº…r‹<faä=°í]Æ†‘Ã hÀ=§œ‰°’ªÇ£Cí> hPœ€bKT\%V/A0 frpÄÂŒÏ£„š$ıÄó}èÇÊ;V¬óÒùE³Ó<W¡¢ˆ·AøMBDŠp7ÅPCapmeÚƒ’ÒˆáY8˜1J)Èß~{ù+àWı¹5¯ĞQ§²”Üè	„kšúµù¸Tõ×¡¢$íŞşú7AèµÁ4mƒÁÓg,±çÈÍ¦ÜGbmĞ«a­Svîú×­ ¶ß©hÅÖ±®´¬É0ğ"%Á÷nbUÛÖ8Ø¦j€ûîMíºàºGäP¡àD.ª/dÕ	¤„SèÂş@¡5ÈÖ©©Èá ˜+8(íXºy—°€
+ò$
++ªÀ›( ïË 0Â‰Œ.êˆ°÷•ıWïW{²¸Â‡Jè¥hh$)¿½üğ
+à¹5l5MiJ"F›e5yóssöõ¯ë´;wn=÷®±?e½¥`ÔuØÄzšïüÎw-ñİï‚? ÷ŞTœÜ'ö'ßŞ³Ğ K/J! äv˜p¬;B”q{´ÍPĞÉº‰ä	6ì¹éJn©ü¼%3ÂàÇŸŸ#èÔ4`GNˆ>›bx¹ñjJ±_©\§:€" v_¦Ê°OØ Gá³ç³(¶öÇ…'— pPVp …•Ô|B Ã.,`ıT”,Š88²4J#ŠÖ’C¢|C³Y·íµ±Eôïúÿµ^<·|ªûo3qCfëüR+ ¨år"‹‚ı-F_u;ß±µµUûèãlømƒ—Kh¹/÷çã
+«&„2™±••J¤°I¬~Ø¡·¸¸d«ÔÆoİ¿c_{÷-K"Xwo¯YŒ|0Ãº óİÆDÇ©×3§ü;®ö°l=9®_xÅ¡÷äT&\ºpÕÖAñ•¶Qƒ»Ï]^Y ÕwÂ&!ûH õC¦±ßQbü h¿• ç¿JŞ‚ƒ†­oVíö{¸ïäD¸®Ü$Ì¾À¼¯È;kGØE;¦¾kB±¨ü§dŸÖ1 Æ yg}^€’Ë)Hè•ĞyPn¼İÊ(±Â¿½üğ
+àÖ\h¶­MZTÉªgI¾­ol 80íòE‘SH a‘	SO½,›ştÙl¾ÔbÀ¢.÷bmmİµÍ®œYá!(º$ÍÀÎC»-ĞÉ§$y¿ÿÏşÄ¡æ¶7*Ä÷K¶˜$F©MM80Meë¾nô9    IDAT•×ßç¬eIÎ­öAÙuğxk·léµ÷ìü«ïØ'„íF@P†	@àû“®]w ÈIF›H_‚¡i,{œv@MóÉ úÉ1İ§ƒUşñÎC @›^\±|vß çİÕºÏa¸•şBä¤ÌäÄGğ*ÂTJå’Õ)5·6IşíºupKæöEa H$”9+#ñÛÑ¬€W /Xw}±w™m—IQòâ‹ÚÅ’M#Ô¼èË-Ë¯Ì·¬¼šg(¾/<%Ï«!FqµDC)QmuiÙUeAµ{ˆûqÿ“dÎû¶I‰¯BŸ+xÄê*»_©àBo Hkğÿ‹V[Â?Úf¡ôp¡·¨
+P{ïc¶~óGP…/9rf­ëÎ6nøYàŞoî—©”Ü9çs)årPHŞD§&³Î-/C1¾¹vA¬xMèHºıf%Ç GG-Æ![Ğ×õ ÜÜxdMFñ•ñZVoß K0î_Imñd”ão †$X‹™7è·£Y¯ ~Éºw°î÷ïŞ&v´ƒl†:È7è®‹Q#W’P–O]
+ Ìqé+Ááo	‰Xs2Ù,¿`™é,\__ÇJÓ‹0Š.…· Î¾ÇÛÛÙ¶¢À=¸÷bğM{ZXñ­û¶yû/"÷mò2ÎŸ;ÁÈEŒúTÂëwÊVÛnãş¯º¼B—Ï»ıñ‡ô5LØàì²•‹UÎä!}qÆxÉï"‰„tÅ Õ²½w`·n"¼4ê´ÛÌÜv=;“T%f,É5ÅR)CÈp°oq”¤ê‰5®Iy“K6®R¬:e¢ı´:"Q… MÙÑyKUèÄÕG‡—å¾äğ
+àW,x›Öö¦Â´ğååË¥a(‚L`µã'x¨ñ&Âë,¤^V°Õ¢K&	şM¬aÚùÓÛ™—p«³>»·³kûn?y¹]ß²;l=ùûé_rxï|ù]Úh6ú`çÍÀ\-á™ìî[ËÈ™öÊ¦]·G@†ôá÷ˆÍã©¼½şÚ%»|nÁ¦±öºU¶˜ğÁÍGº¾¾jŸ~J¢SeP¦7±îªÕWéÜÂC‰€ŒÓß/e§9 ÉlÂY‹¢°dä·=´”ÙóR@›@J!¼ B0„¹bĞä¡Û·>C)©™ÉoG±^üV]söJ°ï~Ñ¦/÷ìÂ’³ú~ô)ây„‡¾û¢ıõÜêı{¶@	)‡„½h·çØ•k×™	pk
+|0*{Ñ[²ö=ª­®0j×EÌ$ÄÄìıN•øbh»_½²lç–çœğ!8ÁGK(?ºõÈöÊ¶Éy×;‚¼7š¡_¥~e—{ ì~¤_0Hy!ˆ¾}y.;[võ­wmj~Ñµ+ñç®ˆã£Ñ P†Ó|”cX¨»Ğ.¡ÎıÏ>xîúüŸ/s¼ø5­¶ ¬[”²bq¦è×v‡%'ğË6ÕÈÅ«ÿ—ßSÑ¥+W‰¡ÅÅÂ“€l‘Œ«“Ô+éïP¬=ÀrËjÇ)i¦QFi4ëUÂÀ9³y”›PB¯Ãq±!ù"ïR„wğ!Š;/Ô^—°Ä)*‰5 "$Øí'Ù¦=€jMCKåËW&`ÏC¹´%Ä8
+ ' Ùƒ‚,÷édô®ÿ_şŞÿõìéÀ¯q](5Ãüul‹ËvÁ?{î\{”É¸v[q”«P}·ú?›ŒËêCüåa÷<‡Ë®<DPa}›¸]n<™±úˆåg÷ ágˆ÷'Š$ "-Ú~q›PÆ‹×që?³‡Ÿı„K¿Oé×ÿÎ+{Ÿ…áG7ùŒ!Áõ·ßuŠh“J"	Md¥"U—u4™µâşu„ßv¼8ÚõÿK}úµk7ìµ×ß°©©)gMXp±úÊò×À'$æ.Xxµ­û«à :Nh6‰m7¤ñ¬K<hÎ©w ôÙÚ+»Öaá $Ç%˜{$œŒõ~ÄwöÌy‹ÜK§svîÂ7ñgûáÇ.1Àäë=~·…©¤!üTFwk> ÉIF‹Á¨Ü­J8Ä 
+ƒ
+J ·ò7ILúíèWÀ+€£¿¿ôR¸ğ×_½è<	9:î(=ª$ÙÁ¨Áªc4ıhTØæƒUÈ?`Öª[‚Š"„ÙI*X~ ¨º3Sig±$ıôÿ»Ö`¬¹Bv¨º¡iÃk›ËÁAƒßO³Iç'ğ$
+„@„iË›ÄûÃ°	×ß#—Q%w _%ã/ˆªVÚX…wÇğ6ÓŠïİş”åèyéÂŸ’½8Æ7zn‚/½õ¶MCn®› DšÃ×$£Œçmùõ¯SzÃò®mÚÜ¥‹äš¶~û6ÂL•"=íB€ hFå
+kN’©_™œ¦õ&‰ÿDàÙ)0 4¥‚](™B>ªûW)G&Áƒ7‰‹PaC`‚(ˆ ÉAQ{+áèx¢´SQ²/1‰”Æ&9’;7?vø„c¼ì§êÔ¼8¦·ûİw¿j×®]3•üTËW¾‡à«Î.Böüë.6W“Îü)İxy[ºt	Á},²¬š„¸|Ünq÷ŞiÊôhx,zp„gˆ’$”ûŸã‹¿% 7?
+`§áÀ<7OÈ’‹8¬.B~ô%N>A	ÀŠ”IŸbx šÔB!hFÁ1ÿıOicF‘ùíø¬€W Çç^<9“¯}íoØ×^'–¦¤,Ùµ#üÊ¨wpÿ3+¯ÚÂÕ7ÈèÇí.S‹šà÷/¾ı6V;gë5\{Ür%æ"Xø8Ùü˜˜I–wÉºÃœÃAIˆ.<íÒûš½¾U´ıRz®%gíEõ%2Ï=’Œû{tûh@À-D<°£H:îq¹(Ài0RéQ>Â<ğ’¥P ›ëíîG?zr}ş—ã³^Ÿ{áÎäuÿuş0hÂºšŒ4YÁm•ø‹Îœ³É•Wˆíc´ş2ìÁC›¤5¸0=ü¶j«H’mC°¬t„>eßC!úoŞ¶ÈÙˆ(¹G¼ *‚ºéÆxc®<ÙCù÷°cs×v™'˜N3ÜSáWo„p~mÂ‚8·MPBŠ>ƒÜä¤C,ŠèægŸŒ^÷ÿ›ğ
+à˜Ü
+As_½şª]»~,e>,ï€¤Z_±?eè©YKŸ¹lqš‘ÚLÚ¼{Ï:”ÿÎ\_rF[˜6éº;ı*ÍCà¨Ëõh%N‘…Oh‚ñ£„ ®?¼ï[Tgâ<T»s…Q¡¢0™fÖ_}ÃªÃ¸£ß‡0´Ê\€Ä$õ[·`ÚÃ²3n…QÚCÜŒ@òT"†¸ü«¡xhOîQ™@iårYØŠ.A\’°Ï€×!	ñÛñX¯ Á}˜edÖW€öÎÌL#X!;2ì ŠPbï`a™d>ƒ5å†Â©Â®s°¶msçÏÙÂù3d÷ÁÒ`4¿8cù©i‹ÖäŸ;ßÿ¿m¡†ËÇ¶šŒõ¦d—$i§ÉÂéô™ûcNç³vP«ÙÚ£=Û~ğ‰µ"Ó¶SdôÆW¬—œÁ•OsxÅvo}ìHAÌ TúàhTXbÊêÚ~´133@£ÉÚT$öè©H§’®íù<A5è§?ùP_Œª<·äÔœQšıƒSsµÇìBe=gi®¹şêujüÓ®§¸\ÍBBÊò7hË­¨³/_±³÷Ô}×m´mó$Á¨]|óUJm´
+CÁ­º|€„aœªAşâĞ}]ûùüŸV¦‹£`ça7Š‰€” {g‹(¤—Ğk–-Æu§Òğéu»ÿhæ`(Ñßû†-H'ã.ÿƒ-¨ÆÏYNç[.ÿÃk@¹/•>‹ÁLÂ
+Âùß¥HòÏuIâ‰ˆR\	L…òò<”d,Ñ¿à·£[ïİÚÛ"VzqqQĞÎ»FNÍºâw)‡>¬\•lz<?mé+oºìşîƒu«+6wù"M8Sì÷>1¸òjJä2®·_$%êò«@Íİê–laj÷= ùH…n¾
+b@0J‚oÏúLë}õÂ¬C–›êXyA”ÑPÈCº!£T(*ıÙsgÀ0.L…>å'H>pŞê$ÇĞ;$"Ä
+‹rL	Ì¡MÍU³Ô¥K—]ÕàÎ¿>®Å#¼½cñÑ^ÑmJAÅ¥‰8Mbıİ½]ÍU@¤.;YÇ.¹ZŠ@Ôu Ùƒß?OããÀAÛMÍMÃGé¹'L@°Dû¢!N­_¸ÜFUıBí‘@DIüäæ–Ë/ÀZ`¡nÍBé‚Ryô@ñEüş³‡5‡Ğ¼À P„(¡ ƒ>u.èÑS3¶tı†<¸‹Àsş‹¯XåA\§²É¹°?ïQ‹q>C8@%@%KáD®DcŸŠCC°MµA¼†S.äÙ`p¨ß^ş
+xğò×Ü}âd!ïJk{Äòb’»,^´ 8(áN’È{íÆk1 ÕÙaâ]İdZQ'cË—®R)HXµ,–ZéËoÓš›Áı À |$¸-ÚUÈÜ>(lĞĞ%k”£Ôñ)
+dP<"éì+Şô¨ô1@FC†Ò'Ô˜
+^°T,åònĞÉ¾0Ôß)UIºŒ÷,¨(· s_}øÆŸU®“0€¤ F—éùGtB={]%ã·£XŸ8ŠUç3ó u¶¶we<<QËb–¡ÈÂó¶«W¯Ùääõzs`Ú__¬ ÛÄ`,N‘xƒ˜]Ø#ÒM•ô’(€
+öG¿ÿûV%k?Ô4şSh–AØ°şºbsyú)/2}¾³öXju*ŠÛ DïÀ.ııaFw©ü—7 ˆ Êşí=üö¢]HGç@fy?¹¼‰X„%İYÿ0¾¶¶æ®ësbP9)£”§ã·£Y¯ fİ%Ô m¯¼rÙ–—xö\[¬D­ó
+«0cÅ§'±´}Ûùw µXŸ*€Ê‡-„øÖOníÁ”kÍm9k.
+n	¹br% ÕÂëâsıí¬=Ï¢ œR@h5ñGŠbâì¬:y‚HEhÊé½|ÆöıLú}HY°†X„Ô!Ç	h$LèB®!•Š¢DD‚"8ş<³
+ªÿïE7üˆ—zöÛ¬€úñ_´­¬¬ØÙåe‰nzëJo>B·ÀeÒ™´S¯ìÃí@çÎÇ`ÿ?u	À
+Yúğ=«tòvåoAÎÁW> D.A­ü‚¼AˆÉâ¹Ç¨K†²ùQ—Ğ‹HUğ>ãóöÖoü–ÍÀN¼óıÊ¬=KÁŠ”Ä½ $éÁE ­—æÄáˆDÉ7Xæà´ó&¢(%!/\¼ho½óö‹.Ù?D+àÀ-ü‹>VÀœ7ß|ø¹ ö¾ğĞ·Ÿ”C»n•dŸøöBXêİ†ƒ‚Ü«ÒÔ“‚ï§ìÎ‡ïÛf`ÂÎİø²MRw/á—›/ƒ¯~‘2Ó' ÊòPP¹yÚ‡¿Ù?D@ŸƒùwØ‚ëïşk‡³öğçîÈA’TB0úFé@”ÕÏ`œÄd6²Éå3–NÜ ´GÛñ6ü{„
+:¾ß×
+ø$àñº6¬7ñhCƒ;]ÒNœıtÚ)¾6f È	¡æ-M:Ş!æ¯Ö>±µ­=[¸ş/Qg/à“4Ë/¡8ÁWü?šÊ‹£œŸ=;Ès‡8¤ìH•A¼‡#	%èô¹ ½O4ç‹—_·›ÿÛËkxÔÔsk0ŞI—iÂ4 J~#A™¯¹]„ú¼è°	
+S4zÜoÇk¼8^÷ÃeÎÕó/X.ez'd] ¸İ.5Ùö!Ö9¦—P 	¬W‰·šm*Ì/H½şm;»r‘d¡{$"ë.×@±½cáE!(ûtoÄhU—f
+‡ Ğ‘êtš‰àˆMµŸKài:ÑòÓ¨áØ.~Éîıä„ ’â5ôÔ"Èù*³ßëCW $a89	WÁ¸X•iDJàRØâ™exWÙªŸŞÓñ!À1»÷rÓ5iHxù6t_uè¾76öí€Qa€„¹İ¬’Q¯B+ŞÆÂÂX„ugvÅ&¯¼eY¢ï3üºqÈÅÇ€)Hİ„%¬\‡F±‰$L™£Ï†"€E8-˜öWko”ßc‰ÈxÏÒJ¼ğÖ7,¸x‘Ñc£²ÑĞÜ„jL9Í>ç•(B’ y¸ÏãŒğ8Ä!0=™ßÏ
+xp|î…;ÕÖÛ¶2öQfìEĞ^Ÿxœ±`ú=ÀĞÏ* ›V‹QŞŒ¯ã;µ`³_ûm›^8k˜pk¬İ¶ÒGlµÑ…¬>©}hH‰Ü|‘–
+r¬ßçu	Â¡È>fšz¤,Ê›¬³~Óòí’åáX<wÑæ¾ó{fç¯X£´	±ğ"P~êõ‰]„ƒ@jò8!ÃC)onïìX;f+~ºOÇ+€cvÿ[J¡îáöõ%2Áu£˜`µ÷ªd×Á’qµ»0É¾.¿jùó—œ›=Äò7}ìzÖ®$@¡k±6Á•PÉNóº=)Ç“ (Qö§ÜLÂÏ>ø} ›–Eùdñæ.]±äµ7\§aÎ¿Lho¦E¬_‡ÿü ¡õ ë0N\Ó:œs‹cÖA+î’ôÛñY¯ Ï½pg"T3gt±ÎÊÄ9V[²õàôœ0jè	YzfŞ¦®Ü€¿/oú†Õ]èÂF\!ïÜ`„^¹‹fŸ˜~¨!‚*e0”ïª* Ï²¿4‡rzl¬®ÚŞÖSˆArŒ‰ÂÙË×­À`Q‚5*EÂà½x-ƒ ^
+…f
+")Ç<$¼C´¢ K¢L÷ÛñY¯ Ï½pg"·YÌ¹À?U£·QxøHö‰åw˜ …7Eo>¹$à›ßüM›=ÑD“Î P£KOü|rñ{@Š•T™i§AGüş¢ÓÌ>ıl‘À«»FFjpÜ X ñŠ‰È¡Á"¬>¸gáNÍò(„8ùÂéåûÒïü«–¡Xd²oƒ¡¡=Î½‡G"¥KöŸED!/­@4BGà€¿«ğ
+àXİÚckŒÌjÓ½G[­|È!Ií ˆ£îB˜J¸Ñ$÷®¿ùe;{åU'2®Ùgt—!¤šèÛÅ"+a(÷~äŒ Àğ¡¡%ú6ßªWøÉ8obùmÁªÿ«I¥?%$•éÇE 2@L% T2RD g.^µ_ù^CˆŸ;„ mÂÆ¦÷÷9fcwE¢j½ÁIF™cè·cµ^·ÛA—]?2ë:èêÔ÷;İ!!@ÆÁp”í*»¬Wßc6ß”-9k1@@ÊdíqÑiìŠÚO.¸Ä_Àı£r n·¼ ˜{Q0šî+OAóÕH¤|ƒ^woÑ¿ü/ºïMI“Snºq"(v…ƒPƒJbi„Ï Yƒ-%•Ê0ˆ1á¢%
+(…¤u‚s(hÉ…@ôÛ±Y7Í­@6Hì¢Ğ}é¶CúÄè« ,±v5ÆoM^ûª%Ï¿i·Şg„ø¤Îa›È²axÀx®àÀÕì§¦àã¯ÑzdØåÜurLÍTíĞÂÕøGB€ğ2zTú<DÜNÅm–VäY˜Š&§& á5ƒˆÆ€+„ö4ófW¬Ö!I/X;À:c( 	öölïşî?_µˆª$ı0Ğãòµó
+à¸Ü	Î#»PvCy*ù§!9×±­µ›–™¹h…•ë¶tõ*S€wm/Äîé«ãn«tèQ=ˆ"2õı.u{ŞŸÅ;ˆÃ +/ ƒ #ä®1HP`Üz¹ö‚k.€&(O#ç
+SÑ§†ÈD«MZ‹
+nV`·¾ü7·xÖ®½vÍîlléÕ7iZÊñY:ïcıÓ01hğãÂ{ÆIæ(-zp\¾v^—;! WÿZ!>¤•vÂvJ$åTÀsÏLÍ[æß<üt.iÜí!¤"•!™{ºìBÔñ¢Ü{}mæî™D,ŸËxßœõ$è`÷S™I÷3ÂçIèE*EDT$Ş'¦PQ€qauû„1áU`ÉjEš[´4ßğIË¿íòèƒğËM@5V!ƒëŸÂõ‡2¶·vÆâé÷<ôÚ7l·û¡UWo;êò²b®ÌoG¿^ı=R®X™ô¹%+®h³ôçXï¶-,ÑnZ®»cÉ2€‰Yk¡½7»Õ$ÉVkÙòBÆÎäÎÙ­?½Ç,‰àŞ$ÔáI
+ì£J@$¶6yaıòËSˆÅ¡ ş†x
+®z@y¯J¯ÁÎ^Éµ‹û¿O‚°‹ †Ğl¯Á$Ğ¾m*4b0µM¶ÓÁ)‹OÌÙ]„¥µ»–†Ï@ôaåf×n®}b	„HI†$ıvô+àÀÑßwê¬Kå¦,3YÀÚO“}«Ë%°,pÚ‚FrµË”çò‡/Xİ³HÁ!xlˆ’àìÊÌ»p÷$”t6Õ5Ú€˜‚á:ì¿*"è`¤" cPĞıçªT¤0ÜørB‚|ƒÜ‚hFğŞˆEv ü€kğn‰°ã`Û
+]Ê~á¼«0ÄË[6O7cëÒƒ.À&ğ(V 7)Tü:3òu‡¯W Çá.pIøùé	+Ì_Dpíwî[ˆdÜ–>œÈZxåuK^X±Â\cÈïÜµ–¿„¥!¸¥õÛ.>°Õû¬GÇàĞ(éáª;a°‡¤ŸÊ{ê0T‰O‚A2òŠÿ¥4ò[”a
+9´©b Ú.^pùƒ!û×Ö×,ùş‡–$î³ÚğÁÃÏ,¼U±ÂÕ¯Z~e™ÜŞ	ËHíÀ	;€2mF‡`Ö¦è&ìp]…é%Ûò
+À­óQÿ£»ã·c°Q’uª¹ ÙhP;W2pfr¥@_áœ%‰³#tä	½¡èÒ9Kcè#[;ğú1òûö‡öè£Ÿ[
+ñø«_±Ø4„"-ÿ80¬¹r\‹0Ï‡É„±üúIÈ-±0Píoƒî=5¡,4Yhùí7Í
+)«‰#ğóIô‹Ekß¹g‰Â’ÅS9qIøùY’€	&
+OY‰.Áª`Ë\c*;cò~;+àÀñ¸.I§^ÿ>Vº#Ş½VÅÕş-5C!îFxx<qè¿ˆáÉş'Iğ% ğ¤"˜ü"<}P„±¹e‹æ¦ÁáaüP.¼ætğRiPÃGÄ5 iÁíV|ÌÂÌ!P›±pÚO8€ÂÂ’Í\¸`‰‰ãÁî1î›ŞşĞ_~†(ÆK1q8üŒ2¤‹R’HP•h²)Fğrâ ™ÉÊŸîÓğ!À1¸ÿ	âµË‹V6ÛB eycXæhLuşIjïÂçLıX°\ûxaá5rÿş]ÛØÚµüsnØ'GqŠBˆ?	¹0øré•{6È'È3PH /gu<—%P†Ÿa›ò ~bqa@ÂŸ=º‰w€7A® Mù1’ ¢À¾R ÚppşáÏZnº°Š…Š;”+!Ç°0•±/Í\µÍ;)ªÏ¸E;Â¼p„‹øÑ×.Ÿ·w"
+dÅ,PùÔÅÑÃÈˆwOÓvCÄğj°i4ÀÚK	HÊÔj»¶¶fk;E‹}é›võí÷,!ˆ‚]4¯T?ïsòÉO!Õ£à!È°A¡_ºQ ‡CCÕĞƒ|DyƒA
+^±G÷>³Ûı¨2Ø”—t>ìãÆ†“4T[óPä ‰¼5ö·lğÉ?³ÀíX»²V`ÚŞyëK‡—ïá
+xp„‹øÑÂÏ·í%!2A'Ï¸°Âü²ÃÛ÷ğFµEX@§V¼ËÏÔÛMA“ÒÚ7vÉÀ'vöÍwmŠ¤¡,²¬úèÁ1j÷Ÿ¤ÙÉ)Â‰"•é…(<½NzE +Î:
+•½´|ı-•¢¶¹I‡ TäRò,úR J$ò–.
+ª\ç\y®£’Ÿ>¿¾e-ƒe®åIÃ(£Íıvô+àC€£¿qÅ™°µÂËÖIÑTK. D¼è©×ø½ëjûò»”JÈê„Ö;!Ëœ»h7ŞyÏæÏ-[’Øı ÁCf‘\œzN¥êNÏ‹$æ$ûœ—€7 }¨* =¡}åyŒÚwyäŸî<€ÄïıÛÖùà}š’zÄ÷(&_ƒô‡§-˜¼ç§¿!°cÈlö†uB ©ZÜ/~Rp•ıvÔ+àÀQß>ç cñ³S6HÌ[ˆo&@RZÄdY?Z«XN%Ñ ó„¸ƒ–[H8+êù±ûòw~×.\Y±}Byg“æA Ådö%û®äç®q”ÍÒ8$ëŠ ©¨Ò Š€<€Üx79ˆ8@
+Â• ù+$şïÒXiÒqHïAOÃ&æ­ûGï“LTV0¸Õ4^    IDAT‚ £Šú@º–`”ÔU J•!Os|ÂU
+*(œ;¼ÏoG¾^ù-0«÷†1ûÊ…ŒŸCH,o÷Vl¿„ë°È ÷p»;a‹YáM†w"YtşB
+Š¹£YGÙ·=¨Ã›<—¢d˜˜`ú®ŞË~˜qßU¢NCF40TÖ£í,¿˜‡Ôà^g½OHÂ ‰ ÕPü–‡­Âï-:50J80Hç	z´×­\Y8 Ó¼¤÷ùõ©ÚQ1ŸÕ„><ìÂ LLöÛÑ¯€W Gœ>7·wnÌ@×İ6x=bÏ•ïz ø şˆl3 §\tùèC\é;°¦Qğù]º"*qJzü#A—¥Wl…8róİõ"òdŸ¥ ¸³é}H¿sûå¾“	pï‡!Ô}†\ıVÒP\ú0oto{¬ "ô
+hBq»¥Øc>ˆûgÀ¹ŸĞÛ°wé4”·€G#oÃoG¿^ı=°•Åœ›‹0égÍvvvèõŸvÖSµøÜ€½¾˜ö ÙBø…ÍÑÖ†…·V:€¨³oY¬3¢o	€‚'Ó’N€D[++ï,¾Ş¬'eéyNñ>b>úıw Oº¡E!ä(á%é’€L G”9Ğ
+H’·Ø*ºÒ_,“‹ÀÄa^ÓôxsGÑ  ÎA»°œ´™‡Ûms-êS:ÑoG¾^ù-0Ë!Hw?¶O8ò3³tA½!H‚\tx¾ÀÕkĞÆ$ ›	Fƒ5¬RÜ·ó”íFÎĞv”Ş@	®,¶Ûøábz	$›Ë ìÒ‡õU TqpOó~Mæ(z#yˆ}ş´Ç™÷‡à“‡äsà)€´|«H¸@.‚`ƒ>ÁtÈ3àôó€Á°¹oFCP.1mçã5[-ÂG A¨<¿ı
+xpô÷Àî¯î_“)§CnĞ5l6™a*p’_€tâsqò5 
+#Ebqâq:mZbs\ï
+ò¤a Q›ø»-è­RòâÇ‚/÷^¸Ä ÜôŠ A‡
+Ão·ÿçŠA4`M’rİEI–£(Šûß&ÄÄ3ÎñZpR—àÜ*‚·Ğ¥IHIÃ>¼©î¶­ÏÂ+êÃ²v-ÉPS˜ˆİ¹ƒÅ?å§àÀ1ø”!Úˆ˜¤CkmĞ‚@“!`dèÕ¶ÛT Kâì@¡ƒ7]à ¡î»Ö:–$/@èº6€¸]L¾kæ½Äë²ş#ÛØ£tÜÑÑùNP’0Bë¯~º$"‚/ %2PLAœP‹ckÔWĞQ½Ü°‰N›@×@Ø"2“H€Œ'ÿá‡ûé=Î±7aİ(MY.Ş¿ù
+xpä· àü®@şÑåvFã¿°Î€‚úí¢mI6TÈêcåÁ¸öÓlCã®¸Â†\}`î{x
+,l‹r úúqT²üôò+&ïñš$]€Œ°~º¤!ÏÉ3‚ƒîS. ‡«®F M(Ú+Ö,:›°¹DØÎCñı¡£BÿYi¸ ‘)³
+a#ò‰2:ªNÌgã–BœLAXBió'»x0ÈHa/öÛÑ¯€W GÈŠàFê„­Ú$Áşãn«I§Õ?‡¬˜½d 
+—Ëz6,Pz—N¾\–îÁ®eºUXz é€ğCPŞ(¾¹6yYë,>Oğ}\ÚO‚„Ì¢ó\€Š†d¢8±÷ä@ğímb¢`yúf›f¡\Äÿ¯QåÑ|Vß¯X‘¡µÕ»ÖÿñŸ[4¢Qœ‚Ùª¥’uN"–ˆâ	<$ŒÙ{`í’ƒ¯w×oG¿ÄşÍƒ5È>àïKc±¡p{Jzq©aÙMPšƒ(¤¸|ŞúûeëTéÃ¯ob©¡òJÒ¶‹µ@ä©~‡zzğ JØ]2lŸ\‚‚@?JºçÙÏ=ÇóRA€lu*ö—ò¢èPn$xw~í¯~J 8—ß'‹Ñ¥IzÈüü‡¸Ÿ+Ù¤ñçÎ½ šZ(cV8†ßz¼8ê;ğøó;Å;V%Ş¾ß[Bä@û!|¸ïá ÙuJi¡ÈªM‘I_í%è_O†}b~¤åqñÄâáŒÕø{w_xdñGÂNï”ÉaçßÓÖ_XRpyr®s¿	8Øƒ¯	çÖ§Ù'®G¸ÿÔˆ@¸¥­zÊ/›€×ÂAP À”Áìô4Û ¿aÇ™gÈ<ÁîÁ]}¬ßÁ
+xpn‚;…!É»ÒMÛª®ÛÎÖcµàDD ÚŠ6¹Ø°D;k‰•WÉ°ÃİG’`şâ9 ¹ËR—ËBî1T5 ³V¥äTóÅä,¹Ü}Åû®ıw$ôîs{	QŸ#G€—; b¼W‘d]<
+ñ*–å'	ÙsïA9©LÉ7©ÍÜ¿ÆO~dA†˜Qp÷Ş§ö‘Ê—=âlls.jTöÛqY¯ Ë8<~Í•[‡açÍ»IÎ¤%/]¶øÂœìŞµD›¹ÅexúhßeÜ—oV„s¶@H%¸ ‚+*p%b‘lc­Gˆ?~×§È§'$p|Xy‡rŠĞïEÁ! L$¡èî;¨"@ù= p\öëƒ`ßgû,DÒÑ@Ö,­‘ÄÖè·c»¨n¿Ã
+ìUËÖ”åõ¤Ÿ¶8É7¥ó İ+–hÁmÒ&Œë]¡‘—\Üıp{ÜöCa¹ı\9n¾bx"lB~H$•˜F‹—À'ïCS^AáğL²Ü¿#*ñÊî6J€³‡ B«VBø}œÜ¿[^÷;äÎoHæ|İ¹á’L¹ô‰	pxËŞ«—ì «_§·h§¹MŸ>Ï¦şˆèif¥ô$ó#‹ï” ¯9æ_yìÖG õ>½¦–d)5üÔ)áH±hü·ÛGG”ÀÃè5Á'ÀcØŸ_ ‡pÀß  ®ûpÿÏ±\ËÛò‹'5„Ú‹Ö:Æ€‘Í'ÖÒ|#N¿Ö6†‹NÚ­ƒ(‹­uJÊâSªíŠBM9T¡şä5¸&!	¨â}„\û¨šàºƒäúÃIV‚MáA»Ñ° ¹…çPî»n ÀbRQÉ=,¾‹©„ë¼k¤tÜü?Çv¼8¶·æ¹£'KÜ
+@ÈCò¨añd“¬}¤]Å„ğXtöqVÁv2îr²Öüí”€“y~åÜóòû‹*bÑ(x‚°#F \Ä¹²ÏnĞ*ÙIG^ªL¿fæß®¥QF‡IÆçÎŞÿyLWÀ‡ ÇôÆüÂiAÂ)KÜ…å7’ ªj°‚ Ä@ËöajQ†kÒsà‘|€âS­^É>YxÅó
+œrp™~½â^ıP0mºa\y
+15È„ÜÈpæüC×X(Ï0ÎıçN1•I<2Í¸¯I ~›ğ
+`ln½ø%@@Äá‰x ~äzÛC1ˆx#šÎ€l¹Íx‚ğ{F	($@)pçàúİß<!K¯–c	¾æjÔ·°ıa BTÿğğÔÈ%yÈ² âÂ‰
+hÆíMëtnÇØ¬ëé>Q¯ Æåş“l+ß»eım×•§j€À@{”ş”•ïtÛP„CÖ` ‚¬ÙaYHBlëàâı‘¿?b§F¹)˜44e Šğrx+ æ?E?@%4~”r¥¬•š%¨A¿Í
+x06·
+œıÏşĞ>±p*è‡l>Gı½ûİÃı¯–ÛV\ßs‚/ºnMC°„ØÕşó+kèZı'Ê@A>¯‹,†ğGÔAˆbÜË~ğı
+5’u›‰-) qöéC }dÆ¼ÛøllVÔŸ¨«æúe› -Ø#Æƒşë’Ì Ì)ğ\0= ¨iûVX}bµå¹õ‡0`eü]Fš½Á“‡g“ÚO¯ˆN\áÜƒp£€°¢İWQĞ-Ûp÷¿±éãÿğÀxÜ§ÑY"¤ıH7­Åï"î”Æ°ÆùÅEºïh‚G¯)Aç×İ±ş*	È¾*ºØ]£œ
+àyvvİ}zPƒ}•9Æ!ŒX¿K±´!$İÛ®ª"‰"äà¨sPZeøñÿ3N«éÏ•ğeÀ±ú(ê§E’ø#¤ƒ	È0¤@–^„ $èÈP2‹>JÊ@Îİó*ı©+Ğ…½B…£@@DXõõ~·7¥Ã •Z{V+6­W"’>BÈ@·#@~«ğ
+`¬nœ|“S¨í¨eÀôOÇ†v¯ÅOš~:p	Ôjë5î¸,:ÿ»ú¾®O¢ä	<4z^.¿~×îÊò£(HÊâ«}WÎ¿•ê}âğè'Æ: # 9	–¿Êk‡cÄÆjıÉ>Y¯ ,Å8ü2d (|üš²+Ô^«N|ÀÆq'2Ö„›O;# Â,ŞQo‰ôC! Öú‰ôKÔy^±¿ö!ÕÏ.ì‘f¨¢@
+€÷BOFì_†$|P´ “‰Ã„:~Å8,?Ç/X¯ ¾`QïSàğ³9HA£vŸy€k«áâ«ZnáŒ©Ë·ñİm3¸0Ï +~hé»»j Yû6CÅ–àB )x–Û€ Àhƒ¾Ê	 øz İ€;{LpPã8C$`¤ßÆs¼§û†0&±öÖ!™ÿİím‹g©ıÏ-"œe«m­9&™eYfd–M wøª0qò”P…RRzB®¿öSq@d jîáMˆXõyQˆIb°éGĞ€Ò@,E²1á(¿ç
+x06÷Íò–*ĞˆÅ‡,9S°ÎìYøùÖW[$ÉFœ±Ö­¬÷ã¬¬ì>–]¯’JğûHK8MáŞÇ‹Nèõ¼öwÃI"ØÌâœ….]°{}áøï HZ ùm,WÀ+€1ºmÁD¡Ÿ	›N…ìÌ¥%[c0ÇC£ÿ‰=H;Ûå}\swÊ#ì½J}"ü”¬ZùQf	ñd(rĞËü§÷ğpàUôÚ¨XÈ, ˜‡×èø‹ÎÏZ„$ÑƒeÁ:•GOú1F_£gNÕ+€g–ãxÿ‘]¹JÍ¦]²ğšu:¥¸•K ÿnıÄê?ûçPƒW˜ †¸ûPÊÈ…W_€#EÈÕÇ? Th¸ùu¹CZ~%åR ¼gàÊ‡*J!ğ^€ú.èõG{e‹ÖÛ¶À<€ˆÀr©(Ír¼ÎŸİWÀ+€.Íq{à´_»wnÚ:D›ÛİgÛ5{¸µkµ›?·ÀÆm„›z<ÂªÍ	7?]¾€Š=9|'Ä’j	òç›ì;{ëy"uá‚*°K¶5R\êµŞ§Àú·½…‹€Ch0øóOûü¨ş·ñX‘êsõg)ßš®D~Îâ~sHf^Ì¼#0™{µòâò+ a Š÷8tğ½6ÉC1óŠ´S[41	²¦a,ˆ÷*Ù'ë/6 …!¸4É×=GÂĞMõÕ1él“ÜúóÂQÕ;¤ÿgŒVÀ{ ct³œ 1¯Sİ‡™!WR‡’‚zÍáıÑ£¬=¯cÑG–}ÜïÊæKçë1Ú¤(ôÒ“ı8³úA¼v“b¢h$ãJ/‚( ¯ o¡oõÛzãã#ùã¸^Œá]ëÓ‘'O÷•Œ“¯9wcÀ‰û5ıG®½’‚NŞZ—ä¹'Ğ]Şò´q:BÒÏ1Å$ì”ƒ{³Â	>è@Ü~b i³Büï·±^¯ Æòöbu%÷úNjåÈP¼şX¨y^
+Â)§$ô5î(Óÿt@Vı0Ïïãş#äGŠ0ât¤@ğ8ôô{@=å7‹4Ş›|G¿á
+8|¾l<’zÈâ;*ã	ê‹€Ò‹°:¡lÕ…ò‘¾ıóø¢ù[Ô€^wˆ@â~‡xÜ ¨°<€QH²áb ’RğÛx¯€÷ Æôş9+ :¤ˆµIhqş„sï‘øQm¤ë%ÌN‚İô«Ä_:Aûá5à;L"ÊÕwhåØíPèxşë–mìÿñ
+`LoaŸ¾Yz—øë!¼Ù%ä¾„Vîº|YıÑo#Ù—Ì»çô¼³ıúÅm.Iˆå×óRîøG»;E‚ğ‹“ ÛwÀoc¿^Œé-RPiO|‡Û¨„7²è#‹ÍïÎröpVşpçÇ?Ñ·<%ø¡ıy8Ayò&x]¡†6£ıwOs
+ü6ö+ [î·±\‘±İ.ŞVÊĞ:I– +7räğªÀ/O®XJc$ù£§İ|÷!€^Ñ‰4ÉÈı×<€`ô.ÿï¸®€W ãzç8ïnKC@Çüü-á”µyÜZıs¯ ¡G†ŸÊ÷»+wD!è£ıõ¿v}-´¯şÓt`÷fş80Øÿg*	îPşŸ1\ÏıÇ1<ùSÊé Ï]—~	¼üw6ÅòŠßeÑƒaeÿy1ŞÚw$Ì½ Q†È±ôZH¤ ôh*öP
+!ù‡Æ†Ğw}û¯Öø$l^Œù]wŸâ‰°:ÁvÉ@Yqı-!e÷±ã.¶Çœ?{Å(€ ”b4ÿ‚2†BX°F‚ë§<÷ûh6ae#ÂÑqŸ=Œÿk<WÀ+€ñ¼oOÎZ€®íW£¼[ıÑ‹RÄï.“•w¿óœ`)‡Ñdh„6c½a´w<?I@Ú±¹p S1Á>€—@C’ïı¼r'ã‡W c~ òäè){ïH@àtõ|Z‡Õt€1Ç`ùa/•ùÇğáDÖ¢™i÷w¿ìÔ‚%r( \…¡¸uı´ö­MYKD"[ùªùÓ?\¯ WblâºGRËÎ£c³ñğƒ´ñºù~XôCD‡‚ +W¨Î>|Ùä!°Æˆ%
+s–šZ´$
+@™ÿp¯‚P@CHšL®€7èmÜyæíşñ^¯ Æûş¹³ÇÒXí9k†á—„8 £šñ‡p÷hÜéAë~°n^L:Üıu“€‰ÿ#±$ŒC<’)G®a !†Q}Æ‘¡%˜ vpøVÿó¬€W 'à&Ä[8W ‚-ïWh¤ ˆç{LêÁíßït¡÷ƒïa‚o¡’?pBrj RØ‰k¨(Š„ÅŞ¡™‚T·OÂŠùkx¼^œ€¯Bë>À÷“ dèÀ"LŠ&aFÜÔ^¦IØŸÚ”İt_~¿Ã?"qƒ*âItñZ] ÅÔÿ»ĞêëO½Ûÿ:î+àÀ¸ßAÎ¿Û¬`İ›Äë1â}%ù°ìQFƒCİÀ#’Æ€Ga@—æşó«2Ë? šPß[ç­ë5›ÖÉfP”Q=<‡Z­iÛÏ„ŸÄÿ6®+àÀ¸Ş¹§Î{ +o¾À¸€dé#1n+I½!M;PyX¿MóÃ@êk”÷S› >afv;XúÒ¶ö†S ¡W°Şƒ:TúëtNÑ<õVÿë	X¯ NÀM 	î´ªFÎKß°XAèTìDé€¼£Yµhz‚<:ı>ß„RÉPåÃ 
+# ”_—DaKè?‘‡Ğı‡r2äˆàó7ûßÆ~¼û[ÈPÓ’8Àzõ=„–¤BTœÕï)óOiPõı(Öşém €ıCxÉtÒ&¦
+–Î%™@”°x*i•RÅššÌû¤,üv²VàÙoÃÉº¶Ss5ŠÛG}üÀ}éÒ¶pÜÉØcÌì1P¼VÁÍÜWÑÿs8 í‡¤;šJX¶³é™)ËMRUD ıêX­¡aŸƒ‡NÍÂ‚õ
+à$Üd„×u’á—;!á®HìE©
+„’Ôò©
+Œ¨½zŠ²x4pˆÜAŒA£QpÁ0Ó ÿFÈ´	)üÀ“ğmyæ¼xf9Æô™vÅò@Ã©	KGûO§GÂ‹åî0Ì³Óê ğ°ÿóël¬3M¨k±TÊ’x	Q*]*õF%`Ö¦8¥\ àó7úßNÄ
+xp"n#Â¯r®|$U°X¸Îï¸%qé‡°ú6#x!ÕzÖªí?sÅƒöÏKL‚ $—€Ñë3Fœª@¥Z¶r½kÍ­Á]’‹Ï½÷™ù?Ær¼ËÛö‹'­$ JvÁ°„¾Å|€5¨·	>CĞ}hÀMzöİC¼ƒ
+ï[‚b<`8
+Î›)4º(~iP¢°O¥Áo'kÈşømÜW@Ùy1 ÷húé‚Û	€Ûß¶V«"ZD`"?Ef?nıÕ_¸ÜÊÎ°ÿÄüôôÃL&Ğ	Æ™–Æõç+"òQ0Cª~;Y+àÀ	¸Ÿøˆ§À£İX»²F«xg`Ğ„911{OPşE(oñáMºCtNZˆÂÈ#“`P=ò}ú„)ÒOà·“µ^œ„û‰9¨?[”íúµ~(a€IFñ ²Ö¨”¾ğj…l1dT}©BaÚâ…	<€ˆ”J”ÕLD ûùíd­€Ïœ„û)@Ÿ¿ÆwútíQ¿G’ü$‡Ä#L[p Ú¯vë.<ïoõŸ¤ì—Ìf-œLR
+Û °–?Ã‹@	<İF|–Í_Ş~Æ4Úc€ ªá‡lŸãğ$³¤ƒXu ¼|vz„bóyÁæz‚H
+0”IÇ-H;á¸t‚ì©xàC€,ßØ>íÀØŞº§O\ì¿šÊ¶`±%ˆçÕ"ËÀî> M&¿Mxğ…›Ã€ D”MÃ
+LRP›ò
+ı.Ş ˆBW@Ùøíä¬€W 'à^†yÊxPƒ¸A_ÊÚÚK{p„‡”‚&û¨R€‹ğWL‘§_)ˆX…4hÀ{Â9Ñìôb/âìŸ:æ+à“€Çüı¥NğXîúP	;{šßçä š,AvS^t@öÑ1¤8‚Bâôi(Ò“"	ÁD‰àEïöÏé
+x0¦7îéÓ  rÏÕº+ÈJóPâNÍ@®×õßnNøGö?0„ ¡"]°®	H´aäB>üàŸÓğ
+`LoÜÓ§-ß­Àüƒü÷à÷ğ $ü‡#ÂåºøO¿÷ğwÍş”—€ù§qˆy„}ñ	Hğ!f¦,6¹|¸»ÿyBVÀ+€±¿‘jıÅ½GXÅ@¶pÛÚ<r‚¯Ÿ$‡nlØxøûCâû
+CÎ‚”A—ªA»£éÃ"%'Àìp<3ö«å/àÙğIÀg×cüş‚ñG<²Ø.I‡0÷Höz”ïø)À@„¡[’ı…~ ïü³‹é¢„&¢0Ô(Ö`Í”rÑ!¿¬ğ
+`Ìïg ‡?Í>ú‰´r5ò°àô´!÷DÖ£?@–½Ç`/Üèl5 U*ì[“‡G£M9R0aPqÂ ¿¬ğ
+`Ìïg0–ÁBÓèfø){/ş~>éF û×ê	’ v)ˆ_ğP ”E­R·ƒ2‰¿8Ôbxõ¶P…Q€@à 
+g¥ ¾àıc¾†§ùô½ó» 6Wğ`È­”lË«è@¢Ğƒ…( p (€>qı/¿»şÒ¯U¯[µÚB?P1¤º@#Q %t3TmğÛIZ¯ Æınª]×(ÛQ
+Äùçw~( ØÀœUX•Á |¼ z¾hSŸ€J†ò”<l·FlÀ"ïB±4¡ÀD~;Y+àÀXßOñıõu=ÿdìùƒŸôòkŒuüÁ°a`Àøh6 ÉtÄsh>büşãÉ@‚7TA †U(Æ\À ‰ÀhzŠ„âmÁ»c½jşä?__ü|-Æî·PæŒ›ÿìï÷j4èîê@ŠO šÏÍ*®¾sÀö¢ ~Ñ—…§òïhÅ(‚v.@’‚&g`NĞÀ¤0ËÎ¬Øäßdkøí$¬€÷ Æõ.±Ètú…†¸õóã¯Äå¥”¿jşC ÂBõÑåçºıø'€`Ø÷3W­& Ğã‡Æˆ5+€ŸQ”H,Ğ¶0J$¨Ò ‚ÙÙÛ{æİşq^¯ ÆôîÅYK„ÊnÉ%ìä"pˆ«˜äæ ğv  a‡V; ÎÀ>ƒBlàGá¡C\è¿"ª…© *â¼øR0Å'ÎX«øğÉü/ã»^Œé½‹F‚‡é7Gè© Ôëj ‚Ê›î¿0&ÿ.L¾­÷Ï ˆri^@Šï§sx,=è_B r"ÆŸR &Õ7 QEÇ(Œ'1Ú…‹×ìÓ÷7yííÅcº¦§ñ´½Ç»¥1ğ#™ŠY~¢à„û T¶*uüüDIX}÷ KN) ;åHH¡€?H	J¢İ•£Y‹%`¡ú ‡Z(€^ÅÍÌEé ˆ~°å¥iË¦ú     IDATe“¶½½m8à,í®ãêùs~j¼xj1ÆåWuèqÙ$ì‚5Ê|x›Và6É¾V[å:œz(¼Cù%K.6U„ç‡è#@ş`øØ“èG©ó°ğƒºEz‹PZÁ&œšHÄ™°³+ó–Ë¤@6ìáõømìWÀ+€q¼…4÷´ş^¥ûoÓy  »í:“}±îQ01MòÅtpûÙ·öànwqàäºuJyäÂ”÷Àûaé±şšE$•KÀ{¨ëÖ¨94£‘% 	[]{dÛ{Ìğ
+`¿:ÏŸ³W Ï¯Èü=DøÚ¥¢=	å•ø{¼…K%:-Âè yI¦ü"Åt÷	ßß¶`?k5ˆAö‰Q3Œz–&¶ŸL„Hòõy¯ŞˆÂ X®WíÁÆ=»ÿàÇ€hĞ'@ÓPÛ	;\óqşùy08ÎWqÎ,]®¿ 1|(œ“Á£GĞŸ*á°ò“ öfææáïìZqwßòÓ3¶tî?¤ <·½±iÜ·.–~HÃĞ\zÂ––mrrÊ&ry‡¬Uª(‡(À Ã ıí	“×uF¶FcŸ’CŠZlY»ì(Nòóüóyw\’-)2)‘"MgÃ 4¶œs{”Jª’*'%Q\ÔhH ñú-÷~÷»Ë{}Lä
+HÔŸ?0æå”§sd8[†©NÓÓÓ4Ÿñø0!ÆßWSŠ<£ğòõLÏÀ%x—½N$¿áªğrê®¡ŒuØÛâ€c ­ÜG~Üƒß›ÈsÏ¾¾~KßßŞŠÍ<gÔö·°şíal^£ğn^
+$4qnÜ|%½ÿÑGéæ­ki‹ûŒOÆéóO>GÙ7éÚÍ«élZ¤»ÄÎŒ>®ƒU‡sY*<™>I%éÂ»e+©AXrŸÉñqz|ïn* …ùø<Í	.ÒVe,ƒ¬‘Ïâ¼,}º€b¥Upo5,y½ÏmË]'J_ãH.[e÷Qß›pâİXd­x Cé	ê…éãK×IÉQè3%€wt~F-Ğ*)è)ÿ–ÛäÒa™?ü†]~”ó 1"†éh|”O§ÁN7¶røJëÏs¶¯]I­óóôõİSîQO3ã´ãA#J»¤[ @Óã“šRôs|%`pãí·â Oñx±ñé1åÉ¸€Ä|2M§‡Ò”ì…U‡³Ç/ â‡X—÷—.ÀSXû‘÷öOÜAILÃ5QzŸÅgò½ÆO“Z|ŞTIİÊ»áÙ>•rW–]Åò@OyQàÇ*¡×«pZÿ†)>¢ûµÍŞ}¯cÀù,ïhº b Q%È˜}và¥Óbû0XÃ­[·PÌ"}õÅ—i{w'½ù“ÃVé.ÁèG¯óèñ<úç3x¡÷Ñ5èqn@Æ8–ôßãÉ…«ª¥8”‰s<+QPLÏãØ1K–§Óqšò4bËï“ÿåó´|rôVçå¾Å% |ë_÷	;äéUüîh:Oé®Tİ[ñ|X}ö·Jb/òòš‹÷üÔ—
+oáj„;ñCjÏ|Fâåj *+#€¼éi¾õ84Ôó7áB´`4‡’/…:`d[YN[ T†ëÑ†…S°€¨3¦şŞn¸!¶[”ÁDy\ñ»SéXoàB‚‹-ãa,ÎñxcşÖe1~áùqyÑÎ7f||”Nî}“«8şê«4>ĞŞåë»K øg´F®Ñïó$Ş-È1 V¿G¥^J/½Çâ‡ÑÆ+ì>n[êJµ  …0b¯¥G×CaT*èuüN)Ï:i8Øãº´ÒZQ¯Ñpï¿@ÊÅ›q®÷÷t`c9Š¾€º{h¨Û€ã9 2úß8ùg  ä€G#õ‰Aøş‚~ª¤ŠïÏ aì¶ àğ¬9ğà‘€Ó 8|€ìÀzA‰Kb¿à+€Œ‚ùÈnûiÙrÅ‚ Á7aJÃÙÑãtö·éÉ½ûéôŞ=˜Áovùúf@™	ÑûÚzéšPá›Ğgƒtía?"óúë9ŠïöÙ°Öh2zƒ’ äøé¡ø<bKå—êë««¨u•…Ø@ËÓwPÒ%úÃ@9L×5ğSÑ}|nÜˆz‹ï ¤Kèô²  !
+î	hq`3ÇbYğ~h‹ïâĞvì¤‡gªô\ÄO-\•şhHù0‡‚PĞh7¢¿R|¾n‹ŠNUO$C±éŸš§1¦íf´gŸJÇØl(0 r]èõşÈFÛ”q| Ö,%AÇIq–
+âÏ§óÇ‡éô›‡éÜÊÄÃËíIÿ_å»€ÿÃÌéËgnE)¤óCRlŠŸPŒÌ ÂÜôÁœÔæø´ú¸n½Wˆ€PFıæÚ¡˜*Št™¿\ô¢R-¡ÔZî7yêO(´ Øy§ŸúXş5•{ã)A5ıç1›v šı[Q"<º²ŸZÔl(Ò×*£VÄø|Z¦Š´^‘@5<ücrÊ1|v`“MD­&ut|FIğ&gG ãîì’QèDñÁÈÛ$hÿtr6AşÃ%iXdÄ¸Œh8º’­È”Üßs~œ2Äÿ l>óÓb´şŸàØô"æ2˜s™€BÆ$‹(	`.9· Ä9r˜¦ÇOÒ1)Î'Ÿ}V°†Ë×ß7AÜş¾K_Ş«êPæ>¹òáşÕˆÎgXÄnw”ú;{<,¿—øö.•PV¬$O®’•lÆ!Cv Cİ(ÑEÑw­½[p+«,e/ÙÈã¹üq¨Š/eø?
+lU_Æ°Â­€“!øXD¢çödış¥ÏS™­Soo×£U?ç.Ç<¨Œ<}ÒŞr
+—™à
+Ô6($#Xı—Æ·Z<QŠ^c'à²ƒ2ºáˆ>´PJ³u”~ÎA#º÷5ƒœ'0ìô£r¶+ÇÈœX®ì(Ú´ç‡–ÜoAŸ–0)¿ı±	¾Û’QÑGŸl¤+Tç;N‚s’Ù7Dhrm'ë§E¿b"Û7IhLÒ>…é»ï§o>ù$=üôS²
+Ô"pïË×ÿ>—à˜-}gÿZÚÿÑ›©ucñ°D§Ê˜‘bÃDQK~¾7d£bUÅg]òˆm…Ùùd>FÈ°ÁP…vå“î*”²é¾ÔßèşÿXáV\%A…q#¸€“}iÂ\F°Î‹V(¾ßãÂ4äA ƒÑˆÔ"Á=Êv»İ­ Ø³òŒûÑ',©íeœä„ç3vøL¦êd+¯qŒ¡Ù9ròÏ†§/6	3¨9UƒŞG÷¦µÏyPˆô¼PùÇ@¤
+©Ë’1wm®‘]¬<Vœş”Ôò/ù·cì0•}+Q2#7>a€ĞØ‚s¤`ºyÉìFK°dÌ±ßw@Æ Ë² 0Á›˜sA%3Î›1>y’c@øô,<xß¹“N¾º“6d>._ÿ}.àb>:7ÒÕ7^OùîOÁéG ¯?Ü†Ú¶*ëlÀÊ9=:æh-”ÑW±êXA-©
+¯änPì¶AÑ¥æĞY­
+àK
+«µ7F İWÈµt‚‡Oô‘¸¬ó¾&,aM¶fß`œ9ú}ª…ÿ/MAPN>¾i‘ÏïŒ¤â¬¾ı‘…L ùÜ.íö¶ã3†ÜÏà[‰ÂXÔÓ¤`™ZW}eÏôa¸g	Ày9
+kÖ!‡…ÈŒa¨„‚ Ji6A°³©œ¾»…XwÆô J.ğzö·‘f(¾±c
+Rû*N¢R[¤9åÚ¥ç ãfê0©€Èæ¸-+ Ù:ø{å&0İöˆªÅIUˆ#›Ÿ§G_İM÷`õºX/ûë¥€Š’_¹’ö^}5íß~5¶wRÈı3sÊ!Rô¶ş6
+¸BøÂz¡4VÒ•l¹]Pa·š[‹ò¢Ü>„Cj[¥ç”ËJa+…4O_¥ºj(Ff_ (Šh(.Ê¤[ÑÂÖ¼EÊ¶ SĞ´¯Pl6ãïºKwº øñP€P–µ®ıî  úÎöcÂxfl2ø×‡Úç|î#À(dÀß5@§ sİú!Ë¹ˆ!û?'Å1÷GB ÓÚGpºn?İˆ$˜,cÆ¸ÃR"…ã6È˜¨<m+~ ï£İ½‡ÁHÇjsÁ¼4M¬»YAI¦Ğ »0çÑº„Å7=éoÁ@Lõå8¡\şø¼„µŠ¢&'T+Ş½›¾ùü³T<z âK/Ñÿ^" `¨ü7|ítûƒ©r»çİv÷Â¢ÎñU=Z© w ¹K·ß…@Ğj>=‡¢˜%¾·Çn}E£a‚‡5Ób¢Hú­‚HÅ08§5P^eàÇl©ÂŒc°M½ uöQ«§ë0GØ#xˆ€ÏnïÒå! ü˜Š›aÙQ­TzO:`@ğÛôÚÉ¯€G®r¡à{Í>¿“à=”L†3.9Ó¥X0ŞEœ<‹ e(9®­Îv(í×F¡±©õwŒ¾¨Jê¡´-”uc ³â:}FòK,¾ô®ğ®¥Å`QÍ‡E2)I&ğÁhpit3Â1â3™A@ÖÍ-8£Úğp˜«LfÎ=JÆnÖDğ–¥5ı.íÊt¼Wğy	<ã££túèQ:üú«t÷Hc~»òey¹–/4ªw:éÆ{¦]‚x½­{Üw({İMíP¶ÂÆ!˜(Ò˜ Ú?¼Ãƒ6ºüô2Êg± ‡m¹—’*D~å:–„í·
+¡VWš»0½W@Ÿ´±t‘×iBêÿËK ‘Qè£ø}6áŒ¬Äl	$Z±R+Ìß#kà»¬TPÀl†"ÌÌÇ…F°aã¯ïã¼T"…_‹×BĞƒ!Ğ–ŠĞzî#ÀRË^šÔør*—€2ŸDl@¥·Ô7ÎäïVùIÕÑ<Æk€xÀ…òú[Ğ4£‘A#Tp¿¯…ÌTP;"ëĞÍøn—êAçGàQMOœ¬—2i	 gyqÜŞï3×‚Id¸Æû8w~§ÙÁèı}¢@"#‘a˜}0Øª»!;Ê¹¿ŒÊqùL„âô$\¼ØÇğõ×éÎ¯>æ0UNUz_/&  íıı´µ?xó­´÷ÊíÔGùU (:A˜ ñä„ŸS(<B¥ïÛÆòó Ì~îµì–Ó÷õà4Q¬¿Äò¯P»é4ŞS8çĞì´½ƒkĞÊR×%±}zioPèŒy?Óf;û×ÓÎÕıÔ£xhĞçÑ^ÜÈÀ˜…=úéZRA@ÊE‰¯5şÉ8ØªKšÑ ZÎı<ÏÏí¾È|XP}a­¥¾·);ûhûÆ*Ÿ>„´ Å|©8§Sjşe:^‡âtÏ‰Û‡™mf¶Ya¨!Ğ˜aè]R¡sÔ;Ù¦`µÔjÓ'O)¦¡Pø&c4üñY„t.úï=¯±/—WÈb„Î&,BE= &Ô<Ø¼1/³ÈÊà¥ıªŠ›8*q
+róAX~G‚ù/„2A±ÎëîkònÌAA*ñHøÓÓİ?ı[*¨7Ø°v/ÚËùsÎ_Œ‚µóö[éàíwÓÖş”~'ò×9›nšX#×Z^G'ø€ggvtªÜ
+´‘i­•
+¢¢©ëôIW¼¯EÉ° ZÓo%ÓÈ¾‡q¬&ÏĞßÛÚ€8Zq(ÂA0#ÅÖ
+!G˜e º[0 k¦º}äŞÀeêş¾Ç¿õÃ-ìÑªµécNÊÍ¸¯`³M­'”O—e‘N`(
+}[…@iÇôağLmÑjÒYÚ•`Q’á®>n÷Ÿé;i¶Vµ6#L](D1)+
+ğ@1Î»Êª›bZÒ ¦HåWÄúEğ’´³¿úõSÆQÀÂœgç¼ÍY=(3ˆÀ!÷qM\§:¿ÇdZNö Ì‚Z0œ (c¬/ßs#†@ÿ•’şEĞ5à0•A°nçÔjÈ–†ıÉ>…À¥²à½eQÌåøä$Rgpxÿ^úüw¿N÷ÿû*›ğÂÔÔ±¼WŞ}'½úÓŸ¥+·¶ª”U+¦b!ó!\­6¦çğ£ì…ÏP(A_«°ªf
+®Â-},PÓZ…+"Ú¸©Ekà£òì” ²ğnx¯`·›BÔîsGÉ}_+f¯…¥±_M‚p×²’oÅ>{Ü£27—xÒ(äÉ94ÅUAél”î ³tœ¾:À€9l¶¯>?Òû‚í€díi†Á¼
+$; ÚdT¾ØsÀ¸TAÏ@cŒ‘÷<ñÇò ÁK½±_uPqœ'ÛõÚéDÃÔåĞZ;7*Ïšk„
+câ&Ö¢e=íô Û¥1•Ş6+_Ş¾pÒ®¯6k±äì`,ãYñ¼ıpk5Ş`–MDÑiÁœ…s)à}‚qV#vÁºÑMÀ‰&LÍX
+c6fQK
+·ÑÍRWq!G×öSÀş÷_ş2­¨9ğÚçıå,?×£hÌ;xïı´up#¿í^­”J'åw±E¤ÛDv„qE0oÃßUp©ó”"D«¦–¨úªZ¤	> Áµ5VËÀœA6wÜ™77HèWT
+­ºÃ¶T˜ú³úÔa)qÚ(¾›rôƒu+2Ş3ªà3ûø/”€7
+ç´º)¥Qä35AŒ¢›éÑ¾–Ë…ó;‘FDiŒ´›—ò;N³¨7”šıûÜC‹Ş3‡O?L5êÑ%cà{çFĞ½1±Ÿö¹“S
+Œ‚z½G†¯}> ÷8™CaQu—ræ-7>€{3CY¥9ï>”Té²ÁH*¯¢›	p~€¬Çyp®ªq¡˜4l„_Öã±f®“€g¹³?*¼ Es´mu`EçµîÒ|é|‡8…éPÏHLÌ(¸.º,ŞÓ1•ÌK°/¯à>2‡¡˜O]>kOs;tÌÊ£Ø—ğuúëo“¿øŒo>¿/gF9z®^î£ßyëÍ4º~-íŞ¸™®Şz•4ZÅë†âh¥ÛA1±>ú¶øss¨¸
+a$xHß•½ë¡èSòÄÑ}è3
+}Š@ÈP %˜`~°nZS¨møè(·ş®ÌÀ¼ÿ ¾E‰®2…^Å´ş~İß*‹gù©È9Êoœ!b| íUx×á‡õËğÏ—*-ÖÍ”—ëR0İÉgFÀš€ˆ 22”K§’¼[¨¨ è9µ Pg•ÎÍIRgSfÖß÷ €.ã\ò}…á”±[œÃäDÿòFS‰[8 `úK·£=ıïm
+£<OPØš¡<fŒœ¤æEÆ°P5';è‘€t9‡ó74&°çêó£B+­²›¨4dnTäœ¹<çÀ~9Îsâf°-çÉï¬ÙĞ[ b5˜Knœ€ûz®¢nˆsnÚµAcÊq×Ä5­Ò€)ıŠXLïÉƒûzr/=üò‹tçw¿IK‚ˆÏÛ‹™y¾^vªíÿìıtå×"w?í‘Në³Èì\ã`#ğ
+‚„í@ˆ°lî *aaóÜ–…4X5ÖB”—&ñ-OÆOâ½–ÃÇhY<£N)«5ò®ÏoaŠ¯ SĞÅØXª¦2Ğ¦)/­±9w)¨tV9†èò=,õö"Ğ²í¸™7	´âC„Eçïã€Á
+NP`ÓW+Ök V«Fin† JÍ}iA´Œ÷-"uG{9`‘¡¡º3#Î
+´¯Æ$ê­ö Z¤÷ê¢@%ãÙfÛo‹úš~™f‹€ ,dªËÄw-õ­SFœ{DÖ°‰27›Ï6÷0æ`
+/"ÿŠ•ÊÖÚ8
+–ôÂO¨5óU•Bd[CZ¢ˆÎmğòÙnÖ’‘ÈÜT´ b±`9) ÊíÓ Ğ·
+±sğ^í¨‚ì‚ù–l!#mÖ¼VlÒ±FqÎ]úd¥¦„ `ÀsÆ}V0.cCuÀ§…›&#È9$Å…œ—¸ôgÿöíÔİ#Ît°Ï~‰~úòã_¥âFÏÑëù   ÷ú«Ğü›1á½+[”¾n§A×Ü9OÈañUnƒ=>ÅFÅŸ!Ÿcí–¹µµY#x…ÄXrkDx&#Àò–(¬€¡Õ7¨…L5¬Š'%óL=¿§Õu;¬‘s…¥"T‘mş¥\ |ÜLÎ  ­v’ş@¥©¡§©ğ…L©µ&Û¡¶`äÔ±H%ß·-ƒŒn‰C7`wÑ¥wò Ï&nHÁŞƒšñ”Ğ}Z³z£Ï½(â†”n¬/Î™}ZÊÖkf(¥¾ºãvÃÁ9n¯!A¾9óh]iı°¢gHßËÒ{;mwyøˆùz®Ù°©À¹*u­hÅœEµY¨¢ÎÎ« ÊC“RkY‹>÷“áD5|¿Å½,‚ÊØƒ°€tITşéšS‹‰İôÛCšªÖy¾jRœÄ.Aî! ;¯®û7«˜éÏÃd_NGÜr•§y;T?úlpTy1C£{Àå3AL€›¡ß”Z©bõEß=3Ap2ÀÜdMvnİLg¦Ç½“üá¬™1…gû%ësÍÙWçGTë½óNÔägìp•GìYôØ·~‘Ge1š£…G¹-9•vJ™×¼·åM½yl–§>ÖPeño–”§ê
+dñë‰õ+ğıµHZDZŠˆÏôa…iYãs,n›Ã0°H²PGå±ÂÏÀšŠ«‚´…òécl“AXù×6ˆ'åäºçVªéc%Øúj!A.Œ×1Vk×ˆŒñoì€k²OAAT¹ÖúöXHÇ¨*â{¨ï¥´E–¢Op²`¬¦ğ"ß@YPùº¤şÚ}”‘}(úÉgüOğâ~áÆğ[*n Ô¾è8ešƒ!X‹3ıvŞÎ Ñ‡'âÜ@©tl‚ân"êq¿Œ5Ó=+d€€îM§Ğõp¨°Ú“mØ~ ù]Kƒ»aé¡îÜÇy²-S²‚@°°põ÷SôÛ¸xÈZ0§LŠr Šº˜øøì ïÙ˜PYpC’s¥‹˜ ×@¯…PV"êºÈ¤Ì(<9;Œz‚ùÙy:ºw?=øôÏé!YƒgùŞ¥_<‹ì¾~;İøù?¦[|¶n\üz·CšmDÚ&ŠrH—-¤÷,¢ÿn@Ù”K÷c›)pnà§ÀB(`]hl§]£ ¥>0–Ú›’, D=:tVÁ
+?$A+.=¯Š|°Z"ÙnƒUH{-Où1e†•!Ê¯Â¨ëò[
+½¼ğUzi½6Q‹c@Q?³K^1ŸØO®7z^¦¢Aca$Z†G?¤ıî„ãé>¯V«OvÁØ‡Û„yƒqNPv÷a•ÅXƒK-±H+¦Â´h·‹«#ˆéšX¾«µ(Ç Êüan’r\Ğ†pMøØ‰âı*H×ÃÒêÇ›Û_ËPjuù+¬bÂúèŞ˜	À¢¿–Z—ôuÒk‰@«øìCğTád`|ÄØ« i•ÒdiO'„ ”–ùR!İ›aĞÎûñ&í9v€yñB×ÆŒ†lÂX€Š/èÛVT
+:0î{Zœ€}ÆgØ))“¢¶)@ØAAnî‡´Ù'–a|ÈÂ)÷i8Rmë:u·_c“VÆÏ¨k ‰xæ^ù­éÆï¥R/¶µ†ÿuaı]Ø³³ÓX<âèì„#JÍ¤›××ºSBÖÌ’Ğ…‹Šä¸`TÒß°2øğÚE¦i¤Ù PXdÁˆW£0±˜‡Å+b
+œ™¿aqÔùınjááœ«O?Uj}ıÅëÊš
+‡Ô[Áõû–Íêv§PÆ¦Xêñø` (E0Gq;º44âDßêîŒI¿ŒJ;®¤'X~}\şõ¶,×çøu8›`‰ÓõQÀ}«©®ÃÂYv;u' ó5°¿üÓııaìAk
+Ì…vz”øŒù³$W¦à^ÁÂˆx¥uC*úÔá	Š4'ÀV.¾~(ŞŠïÄcÌ Ç%4Z^ŸI‹êı–°ƒ.„IGf;˜”»İŠl†B­¯«`ÁXÇ|íŞR•0¸ çZwğÙ‡*k†¯¾`¾‰´İİŠs ‚ÖúR°®Ğ%Öškaf@ü® -pF•à°nÎÂ“€f«ô¹	nĞ¢ï0¯(Æb7å9ó‘¦àº-ÛK	Ø´®¶©ôdŸ	©ÃuO>ùô™ÓµgŠ¸ïşÊ‡ï§W>úô<@@TZQ•)eÒ{­>
+UÇÊ¡w‡œğûmàI+©ï©u”şÉ
+6€)7Şª4ƒYŠŠ.ª/`F§óGp£0îy×Š#í¡fæ¤£Òà”Ö4‡vªÈA9i3C¸ü¾A*­Cëâ'Îä£?•L"Ñï)¬co>•î"À‘úBøJ@È>şö(,}\)¿ñ
+.BÜ*J©é?q¨(÷*°Ğ
+®`‘£T¢İË;s³758ÚAiõ»·`
+2ˆ ¡ú²G«wc#÷3æĞëÎŠb_lG
+Ü$Hi{Ù¾>(DëXèè‹Çë/—¸¦K= …É&"h¬k‰U@ƒ‹¦Dİ7á¿mCğÒµ²€Cåœ37~f!–lËÔ¤éF_2‡8åˆñª|Ü*æ[ğ5Îa QŒÍYü–éY6wœh{¯W  nIDAT~ƒ±Ğı˜GÇ]8@ío7)²jyâ1É i
+íêfñ½sa¡™,HpªRÆ29âô×yÖuí,¬`ãÃ'ÏÔ^–¸š/çì‡zy´Öş‡Fd¿¿w•sévXd}c—Ç_QÉ¦·5à`Jƒ^úm .bÀbtÃ
+.­&Uô­Ub¤Šø~ßhĞ¾'õ š%T¥Ÿ™ÂŠíùîrJ£àéË× ŒÒ¨<‹§ğ+äúôú³rÑJªrHİ ĞääZk
+J€ŠÀ×EàKb€Ğ÷ŒÇ‚Jmô_UT%1ÅŠ3„ËêÀaw€Ã¾Á+„œ_F¸utw|Æ_låÔ†0œ}²Z•ç3ì‹EIûl6Òı9‡‘(øc@Ã>XÙè\CáÆ¼‡Õ$¤²·c•k“ŒÃRe§JMÎˆÔ“5 ß*³Õ^ï,ÆaI˜ÛÑ%À3_³ó€Âõ2º*ÍhÜ×`ß”-l€¶ôåğ	-Æ<$fĞ3Û ­UÖ 0™ ÖY…v\®‰ m¿Í¸î¹m»ÀGÚ“¾9N®Ú€Q¾Íı¦épú8Ü%ïoÆ¦]1vOV\¢:kQn ş¬¥PéÂ‚jÈk–Ysû.pº¦ÆM
+â
+Q»À¼[CğàÏŸ¥{ÿš§4ÿğç(y˜ü~ê/q Í¿şÎÛi‡z}OŸÍEVi¨ˆ¯BnXl-·HÛZph™[aâœk9Am¿gú‹Xw F›”_øÆV•-@5mª;ä†Pa-¾ù_óÅ‘ l×kâ7ÖA RD¿LÁ áùnE‹ª7X_;R]Pdû+e6˜T Ò×ˆ€a¨LXdO«ŞBéU|)¯ÖMß]j­kÁğ#m^\«jĞN
+O7øŸ¼A>_ÖÃç=ú$ãÑÂ÷ «ZÈ1 àbïp`ˆ4vÉä:o*×ŒÏL_ö¥ê¬Ê«rÆŞ}î3£ıñ`4(pp5ëb ¬Da­†”j«Ìèg 4Q2AHå–F+n
+ş² èÆ§`*?LKÜ[Vby²@b¿" Õ.¯ş¾€­Û7ooû‚£Wj@\SeJ`±H‰Ù‹õ±#Î)2™/IŸÔ¨Êëj:Ìwd¸fÈIàÙÊwÃ,yŒº†Fà‹
+MÚv†bSÜØÊG+u5 ²ŒÅ¹ÍxPÊÉ{é‹_şk:ûòKzúÃ½œ±_ü·¯A½ıóI¯üô§iëæM³"/Îb–<}¶1Eo…_v€ô†Â!)±Áfµ–şk]´râ»ñF?5vyÅ•>à¥±­h1Â²â'”·Šxw²©tŞÏ€á)çìùÛŸßšÑ÷Ó+¶u5A´È`
+mêkÆ½<.[zÎÓy=Œ“.ó7Şè«jõµLfŒÂs® ıF2¢Öô(hŠ
+<Ü“¤Ù¾Ö(«}Vó	8Ú°Ê­‡o¬ğ· ÛV!­š³t–Fy¶€Tß·òï”‡}š¯÷‚Z´M'­Z<›òH/ú¥Òér86Æ@¤ÚâëÜ¨¤ûDã,–;»Bé··+Å¹|×óEA#æ“€ŸmêZÙo¾DŸİÆë¦+•¥*~úüC‰eZ F°v½bãJ} ­¬÷$Œıøb
+âßS¶WÄ'Ü]16ä"€ÈuŞÃıb(íØ^˜:>«6—¸lK‚•*¯™!AAXğN[òH2:Ï8:ö ¤yc§&c
+·VcÜG0İ>;S¦pOpdOÿõÔ@pëÇ?N¯ıÓ?§›o¿Gùî5ŠK †(‚Á©¨~µµÄâ7¹Éƒ)!Èuîúø,\ÉÂÌY8£úñdæOÅ4ğ£ë )Œ¡ü,ÿa)ñ5!ÓñısàÂ.ğõódK“{´İ ´At\`Ú±ÎÜ4
+BŒM@|igy¬¾‹n*ÌÂóÂd£ZcSyXü.ä­ˆŒ+ˆZKÓl¬¡å’î÷`JÒQ­h| ÈQˆ6íh]¦(¯4Ù~F+s`?„ê‰>Ô?0O2Ï	<FÑ#õI¹n|~
+0ÃZ&‘aí:÷fL*šJÅœ¸ÙGÿEBè?}uü²‰ÈzĞ?Î³c‘Ùèo›ÖÔ¢Ëjì“kåË1s­óLÆ‚ùğÆZ~ÇÙGÙ»Ìs4-öh„+f6!ç<ÏF íÇ=eP‘^u-•:q úâzY¾ÍQ´díƒ™•¸Ş¥¥WÁ41Jêç=Ü
+Ù!_XŒãh³Î½kÂ×Pt	w8Ve.J‘ƒ®Š¬Îc‰pÆçá²ÃkWÓğÖç>R»rÈƒP´Oñ¥[ùT^–ï^e³ÎÖƒØ©ç¹ùR{Î@—i&«ï¬d«£üRQogIk_iÉ¶xÌÕRkÃ"T•[9ÈoĞÈ…Pi2yA™x­×©AúŞL‚q(&ù[ÿmu`ÎAFÓõ!¹:Ú4Oİ%øhıÊEdÑé·‡j	`BhÅe¥¥G†ñ§aÆ aŒœ6cáâˆ%8€
+Æ!m‘ÃÚëBè~´`ØF¤RE1˜—Œ{µyroF{f6¼_!ÖRkMG™ÎjD5fÚ®Äâğ•µ¼*Duf}æ×¬E<Ü“íĞ,K`Ğ[Í·&ƒ‘‘IğŞãéJë6[s¬l:¯
+±LKà“)©¼NpM+bÎ˜OA@”ìI>r­ç Y«›ĞØµ´3wH3`6"Xf!ñ1YÀs™®fu¬) ç+b ô#Ê{%úÙD&2æ0À÷PVèİTH×ÊvÜx¥k£ÿî¡%vUOæÑ“l¨Óà<ÄLĞ„1§t»°0÷è¦¸¦Î€¡ŸbmÉºÉmu	ê¦.u‰×Æ’1y_€^qáprkŒ×}%Q„Å÷ú;	±“vn¥“øYzô×/Óƒßş>­8¾ìi¼¾w ÂïşäÍ´÷Æk©{õ
+Û`EUN¤Aa´(®»êV*­‚…Š–ØPÄ¸ºšE›¢´ZaaÌõ:óÒÏP6~Wé6@„ÅT8ı³4EsÚl («&€€€¬@p•xÁ—KÊj¹5]¡MV+âD}-‘ÒIÕ'P<Âd„ğQÖé„ÓkCé”}êº 
+Ï1Æ‰Bño„¥ÔºJ%£^qwP,ÙEƒòŞ?j `Á_ $‹]Ÿ‚²¦†ƒJ (sèmú#¥•±LaD3Æ&¸tÎPşªŞE-ô!„I3X5æ;R‘‚ê:˜t¦Ul¾
+ìÄZOØÑc{ì.§ Í 8ilkm¼ÂâOıµü–>3|Yæÿ€¸\%4ö Rû8G	zTô©°&Ct}¿*sS¹M×N¨ºëÉ~ 2ƒh‚İ2€š5ãïÎ·``¸€Fš«d0¶Xq¬¸}˜õûlÁ%Ö‰ëT×’;WNqª^˜b‘vè›l-æ¦$x®M­N\#+áBº^¤VãHuÚYò\„f  G¿Z[D&8â´ÀâC"g°Ú´X­°Õq6=ÎŸìQà¶wófºù“·Ó£¿°¿àc$!˜û}¾Ô”_|_7ÈÙ©wıı÷Òõ·ŞŠ¢4K™fbC!A|¥"è—v°pŸ|šW"„î·×rù|ûfÙb‰™ì6-\n€€v¬×@×</ªÜjÖ‡Å2jµ×"pcÓU–æêC«ä±…—ÁÇ=°ô¦U`°$‚\îÈ;Æg~rÎƒ(°Òáİ>Y
+|Q£È
+è¾ ­¾`d]Zo$]åšÌÎ‰¼S’¬ï ©e¦ïT" ıC70l¦Š²iu=iÇ­ÁúÜ!˜¼iİ¼yk-}Ò ¡€“!Í•NGês¿‚ÕˆöÁ”¢Êûm Ljm¿M»¹O!\+çŸù3a°[1g¶¯E3~¢s—c(±ÂÂäÚW·ôúÒE¼U=‹€ÜÂëúöƒòcYoçÕvœCÇÍ<, VÔÏh@sœ¡ç¡0”K"ËÃ|”ŒSğxÍĞˆ¶iÛf<éÇº ãH6"×¥cÊé ÄÚ
+4!·‹9«¬³íT,QA´àKwÊ—c4$0®¹§åÌúş‹îÓ“4º!‘	— t×Ì›nbœ™È|[^-(Š,ıt-t+™Ò¶8ÌfÄ©Ô}Î­4æRğ ”ïëõ½1 Ÿ˜sãİwÓöÍƒÔu“‰9]Ğ •µÌRNl²ëæ)9Ìy gƒÅXKmyH…Û %È?X5A²®.Gà=òZìùxFæ*_şÖ7ö!æÀvq¾Xœâ€×¬ù|IãÒR…SÿğŒ@Şéì,ú$C¦øÁRQ&lI©T–f,‚K€V•‚ÍĞ/#ãºléKA4¶aàÎJ¾>ï[1háŒÔÔ~†Oê—Uu”ÚLƒ
+#Å×r¨$Ä“–Wy×ŠLVPF]ú% ø}TÇæÄ]~‚¥q»€
+?B&¸¦‚±4w{1'me{Ÿs}Y“Á9—o§)õÉ‘ŞäûL‹¬öa>ß‡Õ˜–$]S“d1§|—NsGƒ‘FÑ}_Ö#5P>ïé}
+'œXÎ”u7hî÷Ô\Ìm²@Pp,¬­Â&ÿ F3æÍêG=¯H?©y,:sƒ·¨iˆ8‹OÀÙ´^s]Å4t
+ƒÑ
+=LûªK:ç¸ô5óYÅHäÆ›t÷ª¬ŠXKšÇÈ˜‚¨-^pµ]ïï¹ŒNú¹§;¹vZ8ÆÒİ¥Jàï³‡÷ÓòØó¾û× "WH4H6    IEND®B`‚      LevelSequence öÿÿÿå]US3 6 9 _ S e q   N  Uİ         öÿÿÿå]US3 6 9 _ S e q      LevelSequence     A   ÿßßÿ¿ÿï         l                         %       ­       ø      f                        #       i       Ç      ­       ­            	   &l¡˜†¤İG„Õ.ô£æŸ              Ï       ­           Ÿ       ­       š       e                        T       ­       D       ©                               äÿÿÿP e r s i s t e n t L e v e l . Á‰`NekuQ_ S k i n _ 2          ¬                   Š       Š       ”¶ÜÑ ×JJ¼w_èô~¦ÄŸ              ¹       ­           Ÿ       ­       „       e                        T       ­       .       ©                               "   PersistentLevel.CineCameraActor_1        ¬                   Š       Š       â501jH»DäÛ(-Ÿ        INDX( 	 O"b            (   8   è       3   ×  S  ×                      ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª 	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     7öæª×	™óª×$ˆ“¶ª×ıcfwª× P1     áK1              å]US3 6 9 _ S e q . 0 0 1 5 . p n g                 ÀM     ©F¡ª×>­ª×æ–¶ª×ZÜzª× P1    G1              å]US3 6 9 _ S e q . 0 0 1 6 . p n g   §M     x f     ÀM     y4Úª×£äª×~Cš¶ª×»ßçzª× P1     €F1              å]US3 6 9 _ S e q . 0 0 1 7 . p n g   ¨M     x f     ÀM     ş€“ª×Š“ª×µ¶ª×+Mózª× P1     —@1              å]US3 6 9 _ S e q . 0 0 1 8 . p n g   ©M     x f     ÀM     lîH”ª×MQ”ª×H ¡¶ª×àØşzª× @1     ó=1              å]US3 6 9 _ S e q . 0 0 1 9 . p n g   ªM     x f     ÀM     ^7[•ª×4!c•ª×în¤¶ª×ÉB
+{ª× @1      ?1              å]US3 6 9 _  e q . 0 0 2 0 . p n g   «M     x f     ÀM     °Ò˜ª×ÖF
+˜ª×/Ï§¶ª×ùÄ{ª× @1     <;1              å]US3 6 9 _ S e q . 0 0 2 1 . p n g   ¬M     x f     ÀM     ôÕÕ˜ª×…ø×˜ª×N«¶ª×Ñzª× @1     Æ81              å]US3 6 9 _ S e q . 0 0 2 2 . p n g   ­M     x f     ÀM     EÔ™ª×Á£Ü™ª×«°®¶ª×w˜f{ª× @1     81              å]US3 6 9 _ S e q . 0 0 2 3 . p n g   ®M     x f     ÀM     Ù³‹œª×UÕ”œª×=²¶ª×ZÛq{ª× @1     ‰91              å]US3 6 9 _ S e q . 0 0 2 4 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 ®Æ"b           (   8   è       3   ×                              ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0     Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                 ÀM     ÅiMpª×ŸŠZpª×5{g¶ª×Æ¬ª× p0    Òe0              å]US3 6 9 _ S e q . 0 1 6 7 . p n g                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     INDX( 	 â\"b           (   8   è       3   ×  S  ×                      ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1     ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     å#N§ª×kW§ª×@Í¶ª×ÎvO{ª× 1    ³Œ1              å]US3 6 9 _ S e q . 0 0 3 2 . p n g                 ÀM     }¼êªª×6óªª×ğ Ô¶ª×é æ{ª× €1     ª|1              å]US3 6 9 _ S e q . 0 0 3 4 . p n g   ¹M     x f     ÀM     }â«ª×3—ê«ª×ÿK×¶ª×…ªªª× p1     `e1              å]US3 6 9 _ S e q . 0 0 3 5 . p n g   ºM     x f     ÀM     B¥ ®ª×yOª®ª×™ÀÚ¶ª×²Y“¯ª× P1     ÓD1              å]US3 6 9 _ S e q . 0 0 3 6 . p n g   »M     x f     ÀM     n6q¯ª×ñş}¯ª×—Ş¶ª×ñş}¯ª×  1     Í1              å]US3 6 9 _  e q . 0 0 3 7 . p n g   ¼M     x f     ÀM     /ãP°ª×>Z°ª×P|á¶ª×>Z°ª× à0     îÙ0              å]US3 6 9 _ S e q . 0 0 3 8 . p n g   ½M     x f     ÀM     %.³ª×áÅ6³ª×mÚä¶ª×áÅ6³ª× 0     á0              å]US3 6 9 _ S e q . 0 0 3 9 . p n g   ¾M     x f     ÀM     ´…
+´ª×™$´ª×K?è¶ª×#š {ª× `0     ŠR0              å]US3 6 9 _ S e q . 0 0 4 0 . p n g   ¿M     x f     ÀM     ÁöÛ´ª×`Êä´ª×€Ÿë¶ª×öS¬{ª× P0     "C0              å]US3 6 9 _ S e q . 0 0 4 1 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 `j"b           (   8   è       3   ×  S  ×                      ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª *UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1     ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     |pÁª×*UwÁª×í^·ª×*UwÁª× 1    ı1              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 ÀM     t;øÄª×ÉÅª×"Á·ª×ÉÅª× 01     +1              å]US3 6 9 _ S e q . 0 0 5 1 . p n g   ËM     x f     ÀM     ›BÜÅª×fıæÅª×ro·ª×|]Øªª×  1     21              å]US3 6 9 _ S e q . 0 0 5 2 . p n g   ÌM     x f     ÀM     “ÆªÆª×´Æª×±8
+·ª×wäªª× 1     ‚1              å]US3 6 9 _ S e q . 0 0 5 3 . p n g   ÍM     x f     ÀM     	”iÉª×&»wÉª×öæ·ª×®£ïªª×  1     K1              å]US3 6 9 _  e q . 0 0 5 4 . p n g   ÎM     x f     ÀM     áNÊª×™¯YÊª×–·ª×o[ûªª×  1     v1              å]US3 6 9 _ S e q . 0 0 5 5 . p n g   ÏM     x f     ÀM     v“Ëª×‚Z)Ëª×¢B·ª×‚Z)Ëª×  1     ¬ó0              å]US3 6 9 _ S e q . 0 0 5 6 . p n g   ĞM     x f     ÀM     çİÍª×ÃlæÍª×%ğ·ª×ÃlæÍª× ğ0     Hê0              å]US3 6 9 _ S e q . 0 0 5 7 . p n g   ÑM     x f     ÀM     ùŠÄÎª×eSÊÎª×„£·ª×eSÊÎª× à0     BÙ0              å]US3 6 9 _ S e q . 0 0 5 8 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        [Core.System]
+Paths=../../../Engine/Content
+Paths=%GAMEDIR%Content
+Paths=../../../Engine/Plugins/MegascansPlugin/Content
+Paths=../../../Engine/Plugins/2D/Paper2D/Content
+Paths=../../../Engine/Plugins/Developer/AnimationSharing/Content
+Paths=../../../Engine/Plugins/Enterprise/DatasmithContent/Content
+Paths=../../../Engine/Plugins/Experimental/ChaosClothEditor/Content
+Paths=../../../Engine/Plugins/Experimental/ChaosNiagara/Content
+Paths=../../../Engine/Plugins/Experimental/ChaosSolverPlugin/Content
+Paths=../../../Engine/Plugins/Editor/GeometryMode/Content
+Paths=../../../Engine/Plugins/Editor/SpeedTreeImporter/Content
+Paths=../../../Engine/Plugins/Experimental/GeometryCollectionPlugin/Content
+Paths=../../../Engine/Plugins/Experimental/GeometryProcessing/Content
+Paths=../../../Engine/Plugins/FX/Niagara/Content
+Paths=../../../Engine/Plugins/Lumin/MagicLeap/Content
+Paths=../../../Engine/Plugins/Lumin/MagicLeapPassableWorld/Content
+Paths=../../../Engine/Plugins/Experimental/MotoSynth/Content
+Paths=../../../Engine/Plugins/Experimental/PythonScriptPlugin/Content
+Paths=../../../Engine/Plugins/Media/MediaCompositing/Content
+Paths=../../../Engine/Plugins/Runtime/AudioSynesthesia/Content
+Paths=../../../Engine/Plugins/Runtime/PostSplashScreen/Content
+Paths=../../../Engine/Plugins/Runtime/Synthesis/Content
+Paths=../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content
+Paths=../../../Engine/Plugins/Runtime/Steam/SteamVR/Content
+Paths=../../../Engine/Plugins/Marketplace/Substance/Content
+Paths=../../../Engine/Plugins/Runtime/HDRIBackdrop/Content
+Paths=E:/Ue4/æˆ‘çš„é¡¹ç›®/Plugins/UIWS/Content
+Paths=../../../Engine/Plugins/Marketplace/UIWS/Content
+Paths=../../../Engine/Plugins/Marketplace/LightExplorer/Content
+Paths=../../../Engine/Plugins/Experimental/Landmass/Content
+Paths=../../../Engine/Plugins/Experimental/Volumetrics/Content
+Paths=../../../Engine/Plugins/FX/CascadeToNiagaraConverter/Content
+Paths=../../../Engine/Plugins/FX/NiagaraExtras/Content
+Paths=../../../Engine/Plugins/Experimental/Shotgun/Content
+Paths=../../../Engine/Plugins/Animation/RigLogic/Content
+Paths=../../../Engine/Plugins/Experimental/ControlRig/Content
+Paths=../../../Engine/Plugins/MovieScene/SequencerScripting/Content
+Paths=../../../Engine/Plugins/Runtime/HairStrands/Content
+Paths=../../../Engine/Plugins/VirtualProduction/Takes/Content
+Paths=../../../Engine/Plugins/Compositing/OpenColorIO/Content
+Paths=../../../Engine/Plugins/MovieScene/MoviePipelineMaskRenderPass/Content
+Paths=../../../Engine/Plugins/MovieScene/MovieRenderPipeline/Content
+Paths=../../../Engine/Plugins/Runtime/PreLoadScreenMoviePlayer/Content
+
+[/Script/UnrealEd.UnrealEdEngine]
+TemplateMapInfos=(ThumbnailTexture=Texture2D'"/Engine/Maps/Templates/Thumbnails/Default.Default"',Map="/Engine/Maps/Templates/Template_Default")
+TemplateMapInfos=(ThumbnailTexture=Texture2D'"/Engine/Maps/Templates/Thumbnails/TimeOfDay.TimeOfDay"',Map="/Engine/Maps/Templates/TimeOfDay_Default")
+TemplateMapInfos=(ThumbnailTexture=Texture2D'"/Engine/Maps/Templates/Thumbnails/VR-Basic.VR-Basic"',Map="/Engine/Maps/Templates/VR-Basic")
+
+[/Script/AndroidPlatformEditor.AndroidSDKSettings]
+SDKPath=(Path="")
+NDKPath=(Path="")
+JavaPath=(Path="")
+
+[/Script/UdpMessaging.UdpMessagingSettings]
+EnabledByDefault=False
+EnableTransport=True
+bAutoRepair=True
+bStopServiceWhenAppDeactivates=True
+UnicastEndpoint=0.0.0.0:0
+MulticastEndpoint=230.0.0.1:6666
+MessageFormat=CborPlatformEndianness
+MulticastTimeToLive=1
+EnableTunnel=False
+TunnelUnicastEndpoint=
+TunnelMulticastEndpoint=
+
+[/Script/LuminPlatformEditor.MagicLeapSDKSettings]
+MLSDKPath=(Path="")
+
+[/Script/UnrealEd.EditorEngine]
+FlipNormalMapGreenChannel=False
+
+[WindowsApplication.Accessibility]
+StickyKeysHotkey=True
+ToggleKeysHotkey=True
+FilterKeysHotkey=True
+StickyKeysConfirmation=True
+ToggleKeysConfirmation=True
+FilterKeysConfirmation=True
+
+                                                                                                                                                                                 INDX( 	 w"b           (   8   è       3   ×  S  ×                      ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1     Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ÷ÒFÛª×t›SÛª×¶õ&·ª×t›SÛª× À1    Œ²1              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 ÀM     ù+ôÜª×Sİª×+S*·ª×Sİª× Ğ1     êÈ1              å]US3 6 9 _ S e q . 0 0 6 8 . p n g   ÜM     x f     ÀM     s„·ßª×ÓÁßª×l(,·ª×ÓÁßª× À1     (¶1              å]US3 6 9 _ S e q . 0 0 6 9 . p n g   İM     x f     ÀM     Uàª×ä¦àª×¡Ù-·ª×õÿ«ª×  1     ›1              å]US3 6 9 _ S e q . 0 0 7 0 . p n g   ŞM     x f     ÀM     [Ègáª×Û7xáª×„/·ª×İ«ª× €1     ,u1              å]US3 6 9 _  e q . 0 0 7 1 . p n g   ßM     x f     ÀM     ğ0äª×<äª×291·ª×<äª× p1      p1              å]US3 6 9 _ S e q . 0 0 7 2 . p n g   àM     x f     ÀM     <{åª×6%åª×·Û2·ª×6%åª× @1     È81              å]US3 6 9 _ S e q . 0 0 7 3 . p n g   áM     x f     ÀM     ½Hñåª×ÔHøåª×&”4·ª×ÔHøåª×  1     ïş0              å]US3 6 9 _ S e q . 0 0 7 4 . p n g   âM     x f     ÀM     ïº¤èª×á}³èª×IE6·ª×á}³èª× à0     úÑ0              å]US3 6 9 _ S e q . 0 0 7 5 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 ‘¹"b           (   @   è                                                 Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0    ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0     ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                            Ù{^Yª×_gYª×¯1¶ª×p’ä«ª× °0    ,¤0              å]US3 6 9 _ S e q . 0 1 5 1 . p n g   	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              INDX( 	 Ï„"b           (   8   è       3   ×  S  ×                      ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1     Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM     Q˜Kóª×İUóª×İ@G·ª×İUóª× p1    Qg1              å]US3 6 9 _ S e q . 0 0 8 3 . p n g                 ÀM      ¡Øöª×‹àöª×³šJ·ª×‹àöª× °1     œ­1              å]US3 6 9 _ S e q . 0 0 8 5 . p n g   íM     x f     ÀM     ¤»÷ª×æÅ÷ª×ıEL·ª×æÅ÷ª× Ğ1     &Å1              å]US3 6 9 _ S e q . 0 0 8 6 . p n g   îM     x f     ÀM     –ë‚úª×Ûúª×6öM·ª×Ûúª× À1     ²1              å]US3 6 9 _ S e q . 0 0 8 7 . p n g   ïM     x f     ÀM     {¯Wûª×İlaûª×=®O·ª×7ëd¯ª× À1     %³1              å]US3 6 9 _  e q . 0 0 8 8 . p n g   ğM     x f     ÀM     2üª×÷Ï9üª×#`Q·ª×á‹p¯ª× °1     ‚©1              å]US3 6 9 _ S e q . 0 0 8 9 . p n g   ñM     x f     ÀM     è>ûşª×P®ÿª×xS·ª×|¯ª× À1     ;²1              å]US3 6 9 _ S e q . 0 0 9 0 . p n g   òM     x f     ÀM     3Øÿª×r%âÿª×%»T·ª×r%âÿª×  1     :–1              å]US3 6 9 _ S e q . 0 0 9 1 . p n g   óM     x f     ÀM     ià£ ª×n.« ª×¯gV·ª×n.« ª× €1     |}1              å]US3 6 9 _ S e q . 0 0 9 2 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 E’"b           (   8   è       3   ×  S  ×                      ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª #ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1     !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     †Îdª×#ğmª×9sg·ª×#ğmª× °1    !ª1              å]US3 6 9 _ S e q . 0 1 0 0 . p n g                 ÀM     j@õª×hÜª×è'n·ª×hÜª× ğ1     ì1              å]US3 6 9 _ S e q . 0 1 0 2 . p n g   şM     x f     ÀM     §ÏÕª×©ãª×ıo·ª×©ãª× 2     Ÿ2              å]US3 6 9 _ S e q . 0 1 0 3 . p n g   ÿM     x f     ÀM     éª×«<›ª×©q·ª×«<›ª× 02     ´'2              å]US3 6 9 _ S e q . 0 1 0 4 . p n g    N     x f     ÀM     HËlª×îwuª×©Us·ª×îwuª× @2     42              å]US3 6 9 _  e q . 0 1 0 5 . p n g   N     x f     ÀM     MBª×¨Lª×4u·ª×‹ó)«ª× @2     h>2              å]US3 6 9 _ S e q . 0 1 0 6 . p n g   N     x f     ÀM     “(öª×÷¾ÿª×†·v·ª×÷¾ÿª× `2     ÔS2              å]US3 6 9 _ S e q . 0 1 0 7 . p n g   N     x f     ÀM     »Úª×Wâª×R™y·ª×Wâª× `2     7^2              å]US3 6 9 _ S e q . 0 1 0 8 . p n g   N     x f     ÀM     ™‡»ª×PÈª×¼{·ª×PÈª× P2     ÏJ2              å]US3 6 9 _ S e q . 0 1 0 9 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 –Ÿ"b           (   8   è       3   ×  S  ×                      ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1     u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     µD'ª×ÖÜJ'ª×mIš·ª×ÖÜJ'ª× À1    u°1              å]US3 6 9 _ S e q . 0 1 1 7 . p n g                 ÀM     O$Ô(ª×â÷Ü(ª×Y
+¡·ª×“A«ª×  2     Óù1              å]US3 6 9 _ S e q . 0 1 1 9 . p n g   N     x f     ÀM     >3Í+ª×õ‘Õ+ª×x¤·ª×õ‘Õ+ª× 2     ?2              å]US3 6 9 _ S e q . 0 1 2 0 . p n g   N     x f     ÀM     /V­,ª×0¤´,ª×äÜ§·ª×0¤´,ª× 02     $!2              å]US3 6 9 _ S e q . 0 1 2 1 . p n g   N     x f     ÀM     `ø^-ª×Ê¸g-ª×j9«·ª×Ê¸g-ª× 02     _'2              å]US3 6 9 _  e q . 0 1 2 2 . p n g   N     x f     ÀM     $é?0ª×Š;E0ª×–®·ª×Š;E0ª×  2     Ö2              å]US3 6 9 _ S e q . 0 1 2 3 . p n g   N     x f     ÀM     Fã$1ª×Í,1ª×…²·ª×øæO®ª×  2     û1              å]US3 6 9 _ S e q . 0 1 2 4 . p n g   N     x f     ÀM     (pØ1ª×³pá1ª×ô|µ·ª×¥‹[®ª×  2     ô1              å]US3 6 9 _ S e q . 0 1 2 5 . p n g   N     x f     ÀM     @Ä³4ª×MÂ4ª×Ö¸·ª×Xg®ª× ğ1     à1              å]US3 6 9 _ S e q . 0 1 2 6 . p n g   &N     x f     ÀM     øˆLª×‹ÚLª×#ìéµª×$®ª×  1     “˜1              å]US3 6 9 _ S e q . 0 1 4 3 . p n g   'N     x f     ÀM     İf•Oª×ñœOª×.Ä¶ª×İ ®ª× 1     !‰1              å]US3 6 9 _ S e q . 0 1 4 4 . p n g   (N     x f     ÀM     ÆnPª×N|wPª×c¶ª×Êâ,®ª× `1     W1              å]US3 6 9 _ S e q . 0 1 4 5 . p n g   )N     x f     ÀM     şQQª×üéQª×u¶ª×¥š8®ª× 01     ¤-1              å]US3 6 9 _ S e q . 0 1 4 6 . p n g   *N     x f     ÀM     œn	Tª×ß„Tª ø!¶ª×/D®ª× ğ0     Îî0              å]US3 6 9 _ S e q . 0 1 4 7 . p n g   +N     x f     ÀM     @$ÜTª×¹låTª×ú^%¶ª×’Á«ª× Ğ0     Ë0              å]US3 6 9 _ S e q . 0 1 4 8 . p n g   ,N     x f     ÀM     Uª×È’•Uª×]Š*¶ª×Ü"Í«ª× Ğ0     9Ì0              å]US3 6 9 _ S e q . 0 1 4 9 . p n g   -N     x f     ÀM     æ‡ƒXª×V•Xª×Š¸-¶ª× Ù«ª× À0     h¾0              å]US3 6 9 _ S e q . 0 1 5 0 . p n g                                                                        INDX( 	 ’Û b           (   8   è       3   ×  S  ×                      •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª /Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&     °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     (XZª×/Paª×:\fª×/Paª× 0&    °!&              å]US3 6 9 _ S e q . 0 0 4 9 . p n g                 •M     çÄ ª×r¯Ê ª×'P”fª×r¯Ê ª× @&     9&              å]US3 6 9 _ S e q . 0 0 5 1 . p n g   !M     x f     •M     €§!ª×²Ô²!ª×©ñ–fª×	Waª× `&     cX&              å]US3 6 9 _ S e q . 0 0 5 2 . p n g   "M     x f     •M     Á¢"ª×{R§"ª×0˜fª×Ö¡aª× p&     Èd&              å]US3 6 9 _ S e q . 0 0 5 3 . p n g   #M     x f     •M     ,%ª×x>%ª×ÂJšfª×}êaª× €&     Š~&              å]US3 6 9 _  e q . 0 0 5 4 . p n g   $M     x f     •M     Íô%ª×à¼ú%ª×J÷›fª×Z)aª×  &     š&              å]US3 6 9 _ S e q . 0 0 5 5 . p n g   %M     x f     •M     ,Eï&ª×hPù&ª×Ô£fª×{É2aª× À&     ±&              å]US3 6 9 _ S e q . 0 0 5 6 . p n g   &M     x f     •M     üWf)ª×j¯n)ª×`PŸfª×÷<aª× À&     ;½&              å]US3 6 9 _ S e q . 0 0 5 7 . p n g   'M     x f     •M      “;*ª×–fD*ª×ÿ fª×–fD*ª× À&     b¾&              å]US3 6 9 _ S e q . 0 0 5 8 . p n g   (M     x f     •M     „ G+ª×ÇP+ª×æ·¢fª×ÇP+ª× Ğ&     *Æ&              å]US3 6 9 _ S e q . 0 0 5 9 . p n g   )M     x f     •M     ¶ë¶-ª×%¿-ª×„¤fª×%¿-ª× À&     A¸&              å]US3 6 9 _ S e q . 0 0 6 0 . p n g   *M     x f     •M     Ò:’.ª×¼Ö™.ª×ª-¦fª×¼Ö™.ª× °&     ş¦&              å]US3 6 9 _ S e q . 0 0 6 1 . p n g   +M     x f     •M     ‹»70ª×6A@0ª×$Ø§fª×6A@0ª× °&     O­&              å]US3 6 9 _ S e q . 0 0 6 2 . p n g   ,M     x f     •M     ‘W2ª×áè2ª †©fª×áè2ª× °&     Å«&              å]US3 6 9 _ S e q . 0 0 6 3 . p n g   -M     x f     •M     X¯ä2ª×ªÄë2ª×B2«fª×Uœs^ª× °&     ¢&              å]US3 6 9 _ S e q . 0 0 6 4 . p n g   .M     x f     •M     Æè3ª×Q>ñ3ª×ÌŞ¬fª×æ|^ª× &     W&              å]US3 6 9 _ S e q . 0 0 6 5 . p n g   /M     x f     •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                                                                        INDX( 	 »è b           (   8   è       3   ×  S  ×                      •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US 6 9 _ S e q . 0 0 6 6 . p n g                 •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 •M     h¿o6ª×ê+w6ª×ğš®fª×“/†^ª× p&     Úd&              å]US3 6 9 _ S e q . 0 0 6 6 . p n g                 •
